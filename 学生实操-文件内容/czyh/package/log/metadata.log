@@ -1,0 +1,1550 @@
+
+----- .log -----
+!SESSION 2026-07-13 16:26:17.047 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY cn.com.agree.ab.preference.client 4 1 2026-07-13 16:27:03.424
+!MESSAGE 消息通讯错误,无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+!STACK 0
+java.io.IOException: 无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+	at cn.com.agree.ab.communication.mina.MinaClientMQChannel.start(MinaClientMQChannel.java:457)
+	at cn.com.agree.ab.communication.Cell.start(Cell.java:1944)
+	at cn.com.agree.ab.communication.Cell.registerUnit(Cell.java:1637)
+	at cn.com.agree.ab.communication.CellUnit.register(CellUnit.java:447)
+	at cn.com.agree.ab.preference.client.PreferenceClient.start(PreferenceClient.java:195)
+	at cn.com.agree.ab.prerequisite.PrerequisitePlugin$1.run(PrerequisitePlugin.java:125)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY cn.com.agree.ab.client 4 1 2026-07-13 16:28:27.575
+!MESSAGE AB:UpdateModuleService启动失败:无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+!STACK 0
+java.io.IOException: 无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+	at cn.com.agree.ab.communication.mina.MinaClientMQChannel.start(MinaClientMQChannel.java:457)
+	at cn.com.agree.ab.communication.Cell.start(Cell.java:1944)
+	at cn.com.agree.ab.communication.Cell.registerUnit(Cell.java:1637)
+	at cn.com.agree.ab.communication.CellUnit.register(CellUnit.java:447)
+	at cn.com.agree.ab.client.update.UpdateModuleClient.start(UpdateModuleClient.java:52)
+	at cn.com.agree.ab.prerequisite.PrerequisitePlugin$1.run(PrerequisitePlugin.java:125)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-13 16:35:34.453 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY cn.com.agree.ab.preference.client 4 1 2026-07-13 16:36:17.487
+!MESSAGE 消息通讯错误,无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+!STACK 0
+java.io.IOException: 无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+	at cn.com.agree.ab.communication.mina.MinaClientMQChannel.start(MinaClientMQChannel.java:457)
+	at cn.com.agree.ab.communication.Cell.start(Cell.java:1944)
+	at cn.com.agree.ab.communication.Cell.registerUnit(Cell.java:1637)
+	at cn.com.agree.ab.communication.CellUnit.register(CellUnit.java:447)
+	at cn.com.agree.ab.preference.client.PreferenceClient.start(PreferenceClient.java:195)
+	at cn.com.agree.ab.prerequisite.PrerequisitePlugin$1.run(PrerequisitePlugin.java:125)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2026-07-13 16:37:18.710 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY cn.com.agree.ab.preference.client 4 1 2026-07-13 16:38:01.708
+!MESSAGE 消息通讯错误,无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+!STACK 0
+java.io.IOException: 无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+	at cn.com.agree.ab.communication.mina.MinaClientMQChannel.start(MinaClientMQChannel.java:457)
+	at cn.com.agree.ab.communication.Cell.start(Cell.java:1944)
+	at cn.com.agree.ab.communication.Cell.registerUnit(Cell.java:1637)
+	at cn.com.agree.ab.communication.CellUnit.register(CellUnit.java:447)
+	at cn.com.agree.ab.preference.client.PreferenceClient.start(PreferenceClient.java:195)
+	at cn.com.agree.ab.prerequisite.PrerequisitePlugin$1.run(PrerequisitePlugin.java:125)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY cn.com.agree.ab.client 4 1 2026-07-13 16:39:25.867
+!MESSAGE AB:UpdateModuleService启动失败:无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+!STACK 0
+java.io.IOException: 无法连接到服务器。请检查：
+1、网络连接
+2、网络设置
+3、服务器是否有效
+	at cn.com.agree.ab.communication.mina.MinaClientMQChannel.start(MinaClientMQChannel.java:457)
+	at cn.com.agree.ab.communication.Cell.start(Cell.java:1944)
+	at cn.com.agree.ab.communication.Cell.registerUnit(Cell.java:1637)
+	at cn.com.agree.ab.communication.CellUnit.register(CellUnit.java:447)
+	at cn.com.agree.ab.client.update.UpdateModuleClient.start(UpdateModuleClient.java:52)
+	at cn.com.agree.ab.prerequisite.PrerequisitePlugin$1.run(PrerequisitePlugin.java:125)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-13 16:43:44.048 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-13 16:47:27.921
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-13 16:47:49.326
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-13 16:47:50.715
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-13 16:47:51.496 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-13 16:47:54.133
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-13 17:36:45.885
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-13 17:36:47.134
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 09:21:48.255 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 09:21:54.651
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 09:27:56.736
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 09:27:58.032
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 09:48:16.736 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 09:48:22.435
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 09:48:47.699
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 09:48:48.996
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 09:48:49.384 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 09:48:52.302
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 11:11:41.956
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 11:11:43.257
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 13:33:03.350 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 13:33:09.643
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 13:33:41.063
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 13:33:42.379
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 13:44:09.457 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 13:44:13.134
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 13:57:20.709
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 13:57:21.955
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 13:57:38.336 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 13:57:41.110
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 13:57:50.663
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 13:57:51.978
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 13:58:41.189 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 13:58:44.638
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 13:58:52.245
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 13:58:53.549
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 13:59:02.508 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 13:59:05.202
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.ui 4 0 2026-07-14 15:18:02.823
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at cn.com.agree.ab.client.ABCApplication.start(ABCApplication.java:624)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: java.lang.NullPointerException
+	at cn.com.agree.ab.exterior.Domain.isDuplicateTask(Domain.java:2917)
+	at cn.com.agree.ab.exterior.Domain.queueTask(Domain.java:2811)
+	at cn.com.agree.ab.exterior.Domain.handleDispose(Domain.java:1670)
+	at cn.com.agree.ab.exterior.Domain.access$27(Domain.java:1594)
+	at cn.com.agree.ab.exterior.Domain$4.handleEvent(Domain.java:910)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at cn.com.agree.ab.widget.swtdock.ScrollLayoutPart.dispose(ScrollLayoutPart.java:89)
+	at cn.com.agree.ab.widget.swtdock.DockingManager.removePart(DockingManager.java:1105)
+	at cn.com.agree.ab.widget.swtdock.TabFolderPartContainer$1$1.run(TabFolderPartContainer.java:131)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 22 more
+
+!ENTRY org.eclipse.ui 4 0 2026-07-14 15:57:30.045
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException))
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at cn.com.agree.ab.client.ABCApplication.start(ABCApplication.java:624)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at cn.com.agree.ab.exterior.AShellDialog$8.run(AShellDialog.java:583)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 22 more
+Caused by: java.lang.NullPointerException
+	at cn.com.agree.ab.exterior.Domain.isDuplicateTask(Domain.java:2917)
+	at cn.com.agree.ab.exterior.Domain.queueTask(Domain.java:2811)
+	at cn.com.agree.ab.exterior.Domain.handleDispose(Domain.java:1670)
+	at cn.com.agree.ab.exterior.Domain.access$27(Domain.java:1594)
+	at cn.com.agree.ab.exterior.Domain$4.handleEvent(Domain.java:910)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at cn.com.agree.ab.widget.swtdock.ScrollLayoutPart.dispose(ScrollLayoutPart.java:89)
+	at cn.com.agree.ab.widget.swtdock.DockingManager.removePart(DockingManager.java:1105)
+	at cn.com.agree.ab.widget.swtdock.TabFolderPartContainer$1$1.run(TabFolderPartContainer.java:131)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 27 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 16:25:35.849
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 16:25:37.101
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 16:26:23.960 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 16:26:27.488
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.ui 4 0 2026-07-14 23:25:37.710
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at cn.com.agree.ab.exterior.Domain.isDuplicateTask(Domain.java:2889)
+	at cn.com.agree.ab.exterior.Domain.queueTask(Domain.java:2811)
+	at cn.com.agree.ab.exterior.Domain.handleDispose(Domain.java:1670)
+	at cn.com.agree.ab.exterior.Domain.access$27(Domain.java:1594)
+	at cn.com.agree.ab.exterior.Domain$4.handleEvent(Domain.java:910)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at org.eclipse.ui.internal.PartPane.dispose(PartPane.java:179)
+	at org.eclipse.ui.internal.ViewPane.dispose(ViewPane.java:192)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:678)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1682)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1674)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:256)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:281)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:849)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1585)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:722)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:698)
+	at org.eclipse.ui.internal.WorkbenchWindow$3.run(WorkbenchWindow.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:812)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$16.run(Workbench.java:914)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:911)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:840)
+	at org.eclipse.ui.internal.Workbench$23.run(Workbench.java:1084)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1082)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1054)
+	at cn.com.agree.ab.exterior.theme.TitleBarPainter$1.mouseUp(TitleBarPainter.java:464)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at cn.com.agree.ab.client.ABCApplication.start(ABCApplication.java:624)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 23:25:37.799
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+----- .log -----
+!SESSION 2026-07-14 23:25:46.492 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 23:25:52.364
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 23:30:19.818
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-14 23:30:21.259
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-14 23:30:22.365 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-14 23:30:25.767
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-15 00:22:26.121
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-15 00:22:27.354
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-15 10:09:47.900 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-15 10:09:53.905
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.ui 4 0 2026-07-15 14:49:39.358
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at cn.com.agree.ab.exterior.Domain.isDuplicateTask(Domain.java:2917)
+	at cn.com.agree.ab.exterior.Domain.queueTask(Domain.java:2811)
+	at cn.com.agree.ab.exterior.Domain.handleDispose(Domain.java:1670)
+	at cn.com.agree.ab.exterior.Domain.access$27(Domain.java:1594)
+	at cn.com.agree.ab.exterior.Domain$4.handleEvent(Domain.java:910)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at org.eclipse.ui.internal.PartPane.dispose(PartPane.java:179)
+	at org.eclipse.ui.internal.ViewPane.dispose(ViewPane.java:192)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:678)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1682)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1674)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:256)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:281)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:849)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1585)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:722)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:698)
+	at org.eclipse.ui.internal.WorkbenchWindow$3.run(WorkbenchWindow.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:812)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$16.run(Workbench.java:914)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:911)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:840)
+	at org.eclipse.ui.internal.Workbench$23.run(Workbench.java:1084)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1082)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1054)
+	at cn.com.agree.ab.exterior.theme.TitleBarPainter$1.mouseUp(TitleBarPainter.java:464)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at cn.com.agree.ab.client.ABCApplication.start(ABCApplication.java:624)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-15 14:49:39.474
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+----- .log -----
+!SESSION 2026-07-15 14:49:43.671 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-15 14:49:46.618
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-15 14:52:05.872
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-15 14:52:07.186
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-15 14:52:10.442 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-15 14:52:13.426
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.ui 4 0 2026-07-15 17:32:24.527
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at cn.com.agree.ab.client.ABCApplication.start(ABCApplication.java:624)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: java.lang.NullPointerException
+	at cn.com.agree.ab.exterior.Domain.isDuplicateTask(Domain.java:2917)
+	at cn.com.agree.ab.exterior.Domain.queueTask(Domain.java:2811)
+	at cn.com.agree.ab.exterior.Domain.handleDispose(Domain.java:1670)
+	at cn.com.agree.ab.exterior.Domain.access$27(Domain.java:1594)
+	at cn.com.agree.ab.exterior.Domain$4.handleEvent(Domain.java:910)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at cn.com.agree.ab.widget.swtdock.ScrollLayoutPart.dispose(ScrollLayoutPart.java:89)
+	at cn.com.agree.ab.widget.swtdock.DockingManager.removePart(DockingManager.java:1105)
+	at cn.com.agree.ab.widget.swtdock.TabFolderPartContainer$1$1.run(TabFolderPartContainer.java:131)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 22 more
+
+!ENTRY org.eclipse.ui 4 0 2026-07-15 17:32:37.686
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at cn.com.agree.ab.exterior.Domain.isDuplicateTask(Domain.java:2889)
+	at cn.com.agree.ab.exterior.Domain.queueTask(Domain.java:2811)
+	at cn.com.agree.ab.exterior.Domain.handleDispose(Domain.java:1670)
+	at cn.com.agree.ab.exterior.Domain.access$27(Domain.java:1594)
+	at cn.com.agree.ab.exterior.Domain$4.handleEvent(Domain.java:910)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at org.eclipse.ui.internal.PartPane.dispose(PartPane.java:179)
+	at org.eclipse.ui.internal.ViewPane.dispose(ViewPane.java:192)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:678)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1682)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1674)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:256)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:281)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:849)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1585)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:722)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:698)
+	at org.eclipse.ui.internal.WorkbenchWindow$3.run(WorkbenchWindow.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:812)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$16.run(Workbench.java:914)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:911)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:840)
+	at org.eclipse.ui.internal.Workbench$23.run(Workbench.java:1084)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1082)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1054)
+	at cn.com.agree.ab.exterior.theme.TitleBarPainter$1.mouseUp(TitleBarPainter.java:464)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at cn.com.agree.ab.client.ABCApplication.start(ABCApplication.java:624)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-15 17:32:37.815
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+----- .log -----
+!SESSION 2026-07-16 09:11:46.120 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-16 09:11:56.648
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-16 16:26:16.226
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-16 16:26:17.244
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-16 16:26:19.112 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-16 16:26:25.597
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.ui 4 0 2026-07-16 16:33:12.200
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at cn.com.agree.ab.client.ABCApplication.start(ABCApplication.java:624)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: java.lang.NullPointerException
+	at cn.com.agree.ab.exterior.Domain.isDuplicateTask(Domain.java:2917)
+	at cn.com.agree.ab.exterior.Domain.queueTask(Domain.java:2811)
+	at cn.com.agree.ab.exterior.Domain.handleDispose(Domain.java:1670)
+	at cn.com.agree.ab.exterior.Domain.access$27(Domain.java:1594)
+	at cn.com.agree.ab.exterior.Domain$4.handleEvent(Domain.java:910)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at cn.com.agree.ab.widget.swtdock.ScrollLayoutPart.dispose(ScrollLayoutPart.java:89)
+	at cn.com.agree.ab.widget.swtdock.DockingManager.removePart(DockingManager.java:1105)
+	at cn.com.agree.ab.widget.swtdock.TabFolderPartContainer$1$1.run(TabFolderPartContainer.java:131)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 22 more
+
+!ENTRY org.eclipse.ui 4 0 2026-07-16 22:54:48.066
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at cn.com.agree.ab.exterior.Domain.isDuplicateTask(Domain.java:2917)
+	at cn.com.agree.ab.exterior.Domain.queueTask(Domain.java:2811)
+	at cn.com.agree.ab.exterior.Domain.handleDispose(Domain.java:1670)
+	at cn.com.agree.ab.exterior.Domain.access$27(Domain.java:1594)
+	at cn.com.agree.ab.exterior.Domain$4.handleEvent(Domain.java:910)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at org.eclipse.ui.internal.PartPane.dispose(PartPane.java:179)
+	at org.eclipse.ui.internal.ViewPane.dispose(ViewPane.java:192)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:678)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1682)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1674)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:256)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:281)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:849)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1585)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:722)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:698)
+	at org.eclipse.ui.internal.WorkbenchWindow$3.run(WorkbenchWindow.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:812)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$16.run(Workbench.java:914)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:911)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:840)
+	at org.eclipse.ui.internal.Workbench$23.run(Workbench.java:1084)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1082)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1054)
+	at cn.com.agree.ab.exterior.theme.TitleBarPainter$1.mouseUp(TitleBarPainter.java:464)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at cn.com.agree.ab.client.ABCApplication.start(ABCApplication.java:624)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-16 22:54:48.171
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+----- .log -----
+!SESSION 2026-07-17 15:37:12.367 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-17 15:37:18.401
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.resources 4 568 2026-07-17 16:00:35.204
+!MESSAGE Could not write metadata for '/jlcb'.
+!STACK 0
+java.io.FileNotFoundException: E:\Software_Testing_Tutorial\学生实操-文件内容\czyh\package\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\jlcb\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:43)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:39)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1485)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1565)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1021)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:22:29.016
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:22:30.235
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-17 16:28:18.708 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-17 16:28:21.595
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:29:20.574
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:29:22.023
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-17 16:29:29.778 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-17 16:29:32.028
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:30:53.665
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:30:54.898
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-17 16:31:03.250 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-17 16:31:05.621
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:31:42.900
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:31:44.121
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-17 16:31:44.754 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-17 16:31:46.947
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:32:46.450
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-17 16:32:47.662
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-23 18:51:44.813 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-23 18:51:51.120
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-23 18:52:11.641
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-23 18:52:12.974
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-23 18:52:48.754 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-23 18:52:51.568
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.ui 4 0 2026-07-23 21:44:03.555
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at cn.com.agree.ab.exterior.Domain.isDuplicateTask(Domain.java:2917)
+	at cn.com.agree.ab.exterior.Domain.queueTask(Domain.java:2811)
+	at cn.com.agree.ab.exterior.Domain.handleDispose(Domain.java:1670)
+	at cn.com.agree.ab.exterior.Domain.access$27(Domain.java:1594)
+	at cn.com.agree.ab.exterior.Domain$4.handleEvent(Domain.java:910)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at org.eclipse.ui.internal.PartPane.dispose(PartPane.java:179)
+	at org.eclipse.ui.internal.ViewPane.dispose(ViewPane.java:192)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:678)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1682)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1674)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:256)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:281)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:849)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1585)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:722)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:698)
+	at org.eclipse.ui.internal.WorkbenchWindow$3.run(WorkbenchWindow.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:812)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$16.run(Workbench.java:914)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:911)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:840)
+	at org.eclipse.ui.internal.Workbench$23.run(Workbench.java:1084)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1082)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1054)
+	at cn.com.agree.ab.exterior.theme.TitleBarPainter$1.mouseUp(TitleBarPainter.java:464)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at cn.com.agree.ab.client.ABCApplication.start(ABCApplication.java:624)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-23 21:44:03.682
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-23 21:44:05.272
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-23 21:44:05.658 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-23 21:44:24.842
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-23 21:46:01.069
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+----- .log -----
+!SESSION 2026-07-24 10:52:09.507 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-24 10:52:16.798
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-24 11:26:10.283
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-24 11:26:11.551
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-26 22:50:46.215 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-26 22:50:52.878
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-26 22:51:09.665
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-26 22:51:11.537
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+----- .log -----
+!SESSION 2026-07-26 23:37:55.194 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.ui 4 4 2026-07-26 23:38:00.957
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-27 00:06:19.400
+!MESSAGE An internal error occurred during: "主题更新".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-27 00:06:20.630
+!MESSAGE An internal error occurred during: "打开交易:nxcb.pub.login.Tellerlogin".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at cn.com.agree.ab.exterior.ExteriorView.createDomain(ExteriorView.java:580)
+	at cn.com.agree.ab.exterior.ExteriorView$6.run(ExteriorView.java:485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

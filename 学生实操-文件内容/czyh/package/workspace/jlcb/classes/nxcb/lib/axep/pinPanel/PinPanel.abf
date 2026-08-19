@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GBK"?>
+<content>
+    <entry key="layout#layout" value="xy" type="String"/>
+    <entry key="constraints#xy_location" value="0,0" type="String"/>
+    <entry key="constraints#xy_size" value="263,55" type="String"/>
+    <entry key="enable" value="true" type="Boolean"/>
+    <entry key="visible" value="true" type="Boolean"/>
+    <entry key="title" value="" type="String"/>
+    <entry key="parent_trade" value="" type="String"/>
+    <entry key="help" value="密码键盘输入框" type="String"/>
+    <entry key="dictionary_key" value="" type="String"/>
+    <entry key="methods" value="" type="String"/>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="0,5" type="String"/>
+        <entry key="constraints#xy_size" value="60,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="label_密码" type="String"/>
+        <entry key="text" value="密　　码" type="String"/>
+        <entry key="horizontal_alignment" value="4" type="Integer"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="65,5" type="String"/>
+        <entry key="constraints#xy_size" value="190,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="text_密码" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="password" value="true" type="Boolean"/>
+        <entry key="requisite" value="false" type="Boolean"/>
+        <entry key="picture" value="-6&quot;X&quot;" type="String"/>
+    </bean>
+</content>

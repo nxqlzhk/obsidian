@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="GBK"?>
+<content>
+    <entry key="layout#layout" value="xy" type="String"/>
+    <entry key="constraints#xy_location" value="0,0" type="String"/>
+    <entry key="constraints#xy_size" value="800,600" type="String"/>
+    <entry key="enable" value="true" type="Boolean"/>
+    <entry key="visible" value="true" type="Boolean"/>
+    <entry key="title" value="" type="String"/>
+    <entry key="parent_trade" value="" type="String"/>
+    <entry key="help" value="释放柜面终端" type="String"/>
+    <entry key="dictionary_key" value="" type="String"/>
+    <entry key="methods"
+        value="text_被释放柜员_OnBlur,button_提交_OnClick,text_密码_OnBlur,button_退出_OnClick,text_被释放柜员_OnFocus" type="String"/>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="315,10" type="String"/>
+        <entry key="constraints#xy_size" value="158,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="label_标题" type="String"/>
+        <entry key="text" value="释放柜面终端【832003】" type="String"/>
+        <entry key="font" value="宋体$10$1" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="245,60" type="String"/>
+        <entry key="constraints#xy_size" value="74,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="label_被释放柜员" type="String"/>
+        <entry key="text" value="被释放柜员" type="String"/>
+        <entry key="horizontal_alignment" value="4" type="Integer"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="335,60" type="String"/>
+        <entry key="constraints#xy_size" value="165,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="text_被释放柜员" type="String"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="picture" value="-6&quot;0&quot;" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="245,90" type="String"/>
+        <entry key="constraints#xy_size" value="74,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="label_密码" type="String"/>
+        <entry key="text" value="密　　　码" type="String"/>
+        <entry key="horizontal_alignment" value="4" type="Integer"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="335,90" type="String"/>
+        <entry key="constraints#xy_size" value="165,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="text_密码" type="String"/>
+        <entry key="password" value="true" type="Boolean"/>
+        <entry key="picture" value="-6&quot;0&quot;" type="String"/>
+    </bean>
+    <bean feature="Button">
+        <entry key="constraints#xy_location" value="260,336" type="String"/>
+        <entry key="constraints#xy_size" value="78,28" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="button_提交" type="String"/>
+        <entry key="text" value="提交" type="String"/>
+    </bean>
+    <bean feature="Button">
+        <entry key="constraints#xy_location" value="440,336" type="String"/>
+        <entry key="constraints#xy_size" value="78,28" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="button_退出" type="String"/>
+        <entry key="text" value="退出" type="String"/>
+    </bean>
+</content>

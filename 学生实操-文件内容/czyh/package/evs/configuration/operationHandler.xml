@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GBK"?>
+<elecVoucher>
+	<operationHandler name="createAftPdf" type="elecVoucher" class="elecVoucherSys.dissector.handler.pdf.CreateAftPdfHandler"/>
+	<operationHandler name="createPdf" type="elecVoucher" class="elecVoucherSys.dissector.handler.pdf.CreatePdfHandler"/>
+	<operationHandler name="createTemplate" type="elecVoucher" class="elecVoucherSys.dissector.handler.pdf.CreateTemplate"/>
+	<operationHandler name="createEContract" type="elecVoucher" class="elecVoucherSys.dissector.handler.pdf.CreatEContractHandler"/>
+	<operationHandler name="createSeal" type="elecVoucher" class="elecVoucherSys.dissector.handler.seal.CreateSeal"/>
+	<operationHandler name="printSeal" type="elecVoucher" class="elecVoucherSys.dissector.handler.seal.PrintSeal"/>
+</elecVoucher>

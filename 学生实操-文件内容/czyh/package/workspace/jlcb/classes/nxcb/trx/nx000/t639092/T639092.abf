@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="GBK"?>
+<content>
+    <entry key="layout#layout" value="xy" type="String"/>
+    <entry key="constraints#xy_location" value="-6,0" type="String"/>
+    <entry key="constraints#xy_size" value="800,630" type="String"/>
+    <entry key="enable" value="true" type="Boolean"/>
+    <entry key="visible" value="true" type="Boolean"/>
+    <entry key="title" value="" type="String"/>
+    <entry key="parent_trade" value="" type="String"/>
+    <entry key="help" value="券别核对程序" type="String"/>
+    <entry key="dictionary_key" value="" type="String"/>
+    <entry key="methods"
+        value="button_提交_OnClick,ppVASCHID_现金项目_OnBlur,ppVASTNM07_text07_OnFocus,ppVASTNM09_text09_OnFocus,label_标题_OnClick,ppVASCHID_现金项目_OnFocus,button_退出_OnClick" type="String"/>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="360,15" type="String"/>
+        <entry key="constraints#xy_size" value="102,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="label_标题" type="String"/>
+        <entry key="text" value="配款【639092】" type="String"/>
+        <entry key="horizontal_alignment" value="2" type="Integer"/>
+        <entry key="font" value="宋体$10$1" type="String"/>
+        <entry key="help" value="配款" type="String"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="495,35" type="String"/>
+        <entry key="constraints#xy_size" value="80,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="ppVASFLAG_进入标志" type="String"/>
+        <entry key="enable" value="false" type="Boolean"/>
+        <entry key="visible" value="false" type="Boolean"/>
+        <entry key="editable" value="false" type="Boolean"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="610,35" type="String"/>
+        <entry key="constraints#xy_size" value="80,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="ppVASDCF_text收付标志" type="String"/>
+        <entry key="visible" value="false" type="Boolean"/>
+    </bean>
+    <bean feature="BookComposite">
+        <entry key="constraints#xy_location" value="35,45" type="String"/>
+        <entry key="constraints#xy_size" value="735,110" type="String"/>
+        <entry key="id" value="bookcomposite32" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <bean feature="Group">
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="id" value="group_不找零" type="String"/>
+            <entry key="text" value="输入条件" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="xy_size" value="80,20" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="35,5" type="String"/>
+                <entry key="constraints#xy_size" value="95,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_应收应付金额" type="String"/>
+                <entry key="text" value="应收/应付金额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="490,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASCCY_币种" type="String"/>
+                <entry key="combo_items" value="," type="String[]"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="CCY" type="String"/>
+                <entry key="visible_item_count" value="10" type="Integer"/>
+                <entry key="editable" value="false" type="Boolean"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="430,5" type="String"/>
+                <entry key="constraints#xy_size" value="53,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_币种" type="String"/>
+                <entry key="text" value="币   种" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASAMT_应收应付金额" type="String"/>
+                <entry key="maxLength" value="0" type="Integer"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="editable" value="false" type="Boolean"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="40,35" type="String"/>
+                <entry key="constraints#xy_size" value="88,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_现金项目" type="String"/>
+                <entry key="text" value="现金项目代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="140,35" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASCHID_现金项目" type="String"/>
+                <entry key="combo_items" value="," type="String[]"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="VASXJD" type="String"/>
+                <entry key="visible_item_count" value="10" type="Integer"/>
+                <entry key="editable" value="true" type="Boolean"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+        </bean>
+        <bean feature="Group">
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="id" value="group_找零" type="String"/>
+            <entry key="text" value="输入条件" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="xy_size" value="80,20" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="70,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_找零金额" type="String"/>
+                <entry key="text" value="找零金额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASFAMTR_找零金额" type="String"/>
+                <entry key="maxLength" value="0" type="Integer"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="editable" value="false" type="Boolean"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="430,5" type="String"/>
+                <entry key="constraints#xy_size" value="53,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_找零币种" type="String"/>
+                <entry key="text" value="币   种" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="490,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASFCCYR_币种" type="String"/>
+                <entry key="combo_items" value="," type="String[]"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="CCY" type="String"/>
+                <entry key="visible_item_count" value="10" type="Integer"/>
+                <entry key="editable" value="false" type="Boolean"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="160,40" type="String"/>
+                <entry key="constraints#xy_size" value="80,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASAMTR_公用找零金额" type="String"/>
+                <entry key="visible" value="false" type="Boolean"/>
+            </bean>
+        </bean>
+    </bean>
+    <bean feature="BookComposite">
+        <entry key="constraints#xy_location" value="35,165" type="String"/>
+        <entry key="constraints#xy_size" value="720,280" type="String"/>
+        <entry key="id" value="bookcomposite65" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <bean feature="Group">
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="id" value="group_券别" type="String"/>
+            <entry key="scrollable" value="false" type="Boolean"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="xy_size" value="80,20" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="70,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_券别代码" type="String"/>
+                <entry key="text" value="券别代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="205,5" type="String"/>
+                <entry key="constraints#xy_size" value="32,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_张数" type="String"/>
+                <entry key="text" value="张数" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="420,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_券别代码1" type="String"/>
+                <entry key="text" value="券别代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="565,5" type="String"/>
+                <entry key="constraints#xy_size" value="32,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_张数1" type="String"/>
+                <entry key="text" value="张数" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,35" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC00_label00" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="tooltip" value="[默认]" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,35" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM00_text00" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,35" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC01_label01" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,35" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM01_text01" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,65" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC02_label02" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,65" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM02_text02" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,65" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC03_label03" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,65" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM03_text03" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,95" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC04_label04" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,95" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM04_text04" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,95" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC05_label05" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,95" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM05_text05" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,125" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC06_label06" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,125" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM06_text06" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,125" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC07_label07" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,125" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM07_text07" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,155" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC08_label08" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,155" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM08_text08" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,155" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC09_label09" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,155" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM09_text09" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,185" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC10_label10" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,185" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM10_text10" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,185" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC11_label11" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,185" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM11_text11" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,215" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC12_label12" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,215" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM12_text12" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,215" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC13_label13" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,215" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM13_text13" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,245" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC14_label14" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,245" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM14_text14" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,245" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC15_label15" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,245" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM15_text15" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,275" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC16_label16" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,275" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM16_text16" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,275" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC17_label17" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,275" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM17_text17" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,305" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC18_label18" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+                <entry key="enable" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,305" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM18_text18" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,305" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC19_label19" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,305" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNM19_text19" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="55,335" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_辅币金额" type="String"/>
+                <entry key="text" value="辅币金额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+                <entry key="visible" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,335" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASAMTB_text辅币" type="String"/>
+                <entry key="visible" value="false" type="Boolean"/>
+                <entry key="picture" value="10&quot;8&quot;" type="String"/>
+            </bean>
+        </bean>
+        <bean feature="Group">
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="id" value="group_找零券别" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="xy_size" value="80,20" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="70,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_券别代码找零" type="String"/>
+                <entry key="text" value="券别代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="205,5" type="String"/>
+                <entry key="constraints#xy_size" value="32,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_张数找零" type="String"/>
+                <entry key="text" value="张数" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="420,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_券别代码找零1" type="String"/>
+                <entry key="text" value="券别代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="565,5" type="String"/>
+                <entry key="constraints#xy_size" value="32,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_张数找零1" type="String"/>
+                <entry key="text" value="张数" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,35" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC00_label20" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,35" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR00_text20" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,35" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC01_label21" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,35" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR01_text21" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,65" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC02_label22" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,65" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR02_text22" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,65" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC03_label23" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,65" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR03_text23" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,95" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC04_label24" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,95" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR04_text24" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,95" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC05_label25" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,95" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR05_text25" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,125" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC06_label26" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,125" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR06_text26" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,125" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC07_label27" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,125" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR07_text27" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,155" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC08_label28" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,155" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR08_text28" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,155" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC09_label29" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,155" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR09_text29" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,185" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC10_label30" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,185" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR10_text30" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,185" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC11_label31" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,185" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR11_text31" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,215" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC12_label32" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,215" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR12_text32" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,215" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC13_label33" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,215" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR13_text33" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,245" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC14_label34" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,245" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR14_text34" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,245" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC15_label35" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,245" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR15_text35" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,275" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC16_label36" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,275" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR16_text36" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,275" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC17_label37" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,275" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR17_text37" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="90,305" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC18_label38" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,305" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR18_text38" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="440,305" type="String"/>
+                <entry key="constraints#xy_size" value="40,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTC19_label39" type="String"/>
+                <entry key="text" value="文字" type="String"/>
+                <entry key="horizontal_alignment" value="1" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="490,305" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASTNR19_text39" type="String"/>
+                <entry key="picture" value="10&quot;z&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="55,335" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_辅币金额找零" type="String"/>
+                <entry key="text" value="辅币金额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+                <entry key="visible" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="140,335" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVASAMTB2_text辅币2" type="String"/>
+                <entry key="visible" value="false" type="Boolean"/>
+                <entry key="picture" value="10&quot;8&quot;" type="String"/>
+            </bean>
+        </bean>
+    </bean>
+    <bean feature="Button">
+        <entry key="constraints#xy_location" value="300,510" type="String"/>
+        <entry key="constraints#xy_size" value="78,28" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="button_提交" type="String"/>
+        <entry key="text" value="配款" type="String"/>
+    </bean>
+    <bean feature="Button">
+        <entry key="constraints#xy_location" value="450,510" type="String"/>
+        <entry key="constraints#xy_size" value="78,28" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="button_退出" type="String"/>
+        <entry key="text" value="退出" type="String"/>
+    </bean>
+</content>

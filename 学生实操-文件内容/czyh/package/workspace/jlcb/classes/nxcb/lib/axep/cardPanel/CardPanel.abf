@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GBK"?>
+<content>
+    <entry key="layout#layout" value="xy" type="String"/>
+    <entry key="constraints#xy_location" value="0,0" type="String"/>
+    <entry key="constraints#xy_size" value="429,55" type="String"/>
+    <entry key="enable" value="true" type="Boolean"/>
+    <entry key="visible" value="true" type="Boolean"/>
+    <entry key="title" value="" type="String"/>
+    <entry key="parent_trade" value="" type="String"/>
+    <entry key="help" value="账号输入框" type="String"/>
+    <entry key="dictionary_key" value="" type="String"/>
+    <entry key="methods" value="" type="String"/>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="20,5" type="String"/>
+        <entry key="constraints#xy_size" value="18,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="label_ID" type="String"/>
+        <entry key="text" value="ID" type="String"/>
+        <entry key="horizontal_alignment" value="4" type="Integer"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="55,5" type="String"/>
+        <entry key="constraints#xy_size" value="190,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="text_ID" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="password" value="false" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="275,5" type="String"/>
+        <entry key="constraints#xy_size" value="46,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="label_Pzh" type="String"/>
+        <entry key="text" value="凭证号" type="String"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="325,5" type="String"/>
+        <entry key="constraints#xy_size" value="80,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="text_Pzh" type="String"/>
+    </bean>
+</content>

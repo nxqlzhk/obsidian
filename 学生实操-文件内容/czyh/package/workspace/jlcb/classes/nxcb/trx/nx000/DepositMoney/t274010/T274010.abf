@@ -1,0 +1,1859 @@
+<?xml version="1.0" encoding="GBK"?>
+<content>
+    <entry key="layout#layout" value="xy" type="String"/>
+    <entry key="constraints#xy_location" value="0,0" type="String"/>
+    <entry key="constraints#xy_size" value="800,1755" type="String"/>
+    <entry key="enable" value="true" type="Boolean"/>
+    <entry key="visible" value="true" type="Boolean"/>
+    <entry key="title" value="存款证明" type="String"/>
+    <entry key="parent_trade" value="" type="String"/>
+    <entry key="help" value="存款证明" type="String"/>
+    <entry key="dictionary_key" value="" type="String"/>
+    <entry key="methods"
+        value="button_退出_OnClick,button_提交_OnClick,ppACCTT01_账号1_OnBlur,ppACCTT02_账号2_OnBlur,ppACCTT03_账号3_OnBlur,ppACCTT04_账号4_OnBlur,ppACCTT05_账号5_OnBlur,ppPWD01_密码_OnFocus,ppPWD02_密码_OnFocus,ppPWD03_密码_OnFocus,ppPWD04_密码_OnFocus,ppPWD05_密码_OnFocus,ppACCTT01_账号1_OnFocus,ppACCTT02_账号2_OnFocus,ppACCTT03_账号3_OnFocus,ppACCTT04_账号4_OnFocus,ppACCTT05_账号5_OnFocus,ppC00130_证明类型_OnBlur,ppC00116_是否继续_OnSelectionChanged,ppC00117_是否继续_OnSelectionChanged,ppC00118_是否继续_OnSelectionChanged,ppC00119_是否继续_OnSelectionChanged,ppC01801_证件号码_OnBlur,ppC01802_证件号码_OnBlur,ppC01803_证件号码_OnBlur,ppC01804_证件号码_OnBlur,ppC01805_证件号码_OnBlur,ppPWD01_密码_OnBlur,ppPWD02_密码_OnBlur,ppPWD03_密码_OnBlur,ppPWD04_密码_OnBlur,ppPWD05_密码_OnBlur" type="String"/>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="345,15" type="String"/>
+        <entry key="constraints#xy_size" value="137,20" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="label_标题" type="String"/>
+        <entry key="text" value=" 存款证明【274010】" type="String"/>
+        <entry key="horizontal_alignment" value="2" type="Integer"/>
+        <entry key="font" value="宋体$10$1" type="String"/>
+    </bean>
+    <bean feature="Group">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="35,45" type="String"/>
+        <entry key="constraints#xy_size" value="750,1550" type="String"/>
+        <entry key="id" value="group_输入条件" type="String"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="65,10" type="String"/>
+            <entry key="constraints#xy_size" value="60,20" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="id" value="label_证明类型" type="String"/>
+            <entry key="text" value="证明类型" type="String"/>
+            <entry key="horizontal_alignment" value="4" type="Integer"/>
+        </bean>
+        <bean feature="Combo">
+            <entry key="constraints#xy_location" value="140,10" type="String"/>
+            <entry key="constraints#xy_size" value="180,20" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="id" value="ppC00130_证明类型" type="String"/>
+            <entry key="combo_items" value="1 时点证明,2 时段证明" type="String[]"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="relations" value="" type="String"/>
+        </bean>
+        <bean feature="Group">
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="constraints#xy_location" value="10,35" type="String"/>
+            <entry key="constraints#xy_size" value="720,205" type="String"/>
+            <entry key="id" value="group_账号1" type="String"/>
+            <entry key="text" value="账号1" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,5" type="String"/>
+                <entry key="constraints#xy_size" value="67,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_账号1" type="String"/>
+                <entry key="text" value="账　　号1" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT01_账号1" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-22&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_款项代码" type="String"/>
+                <entry key="text" value="款项代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCT01_款项代码" type="String"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,30" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_户名" type="String"/>
+                <entry key="text" value="户　　名" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,30" type="String"/>
+                <entry key="constraints#xy_size" value="530,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC07001_户名" type="String"/>
+                <entry key="picture" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_支取方式" type="String"/>
+                <entry key="text" value="支取方式" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="125,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00101_支取方式" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="WTPRF" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_密码" type="String"/>
+                <entry key="text" value="密　　码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppPWD01_密码" type="String"/>
+                <entry key="password" value="true" type="Boolean"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="editable" value="false" type="Boolean"/>
+                <entry key="picture" value="-6&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_印鉴卡号" type="String"/>
+                <entry key="text" value="印鉴卡号" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppF10001_印鉴卡号" type="String"/>
+                <entry key="picture" value="&quot;&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_证件类型" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00106_证件类型" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_证件号码" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01801_证件号码" type="String"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_凭证种类" type="String"/>
+                <entry key="text" value="凭证种类" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00301_凭证种类" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DMSTYP" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_凭证号码" type="String"/>
+                <entry key="text" value="凭证号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVOUNUM01_凭证号码" type="String"/>
+                <entry key="picture" value="-10&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_余额" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT01_余额" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_期限" type="String"/>
+                <entry key="text" value="期　　限" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,155" type="String"/>
+                <entry key="constraints#xy_size" value="115,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppI00301_期限" type="String"/>
+                <entry key="picture" value="-3&quot;9&quot;" type="String"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="240,155" type="String"/>
+                <entry key="constraints#xy_size" value="65,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00111_字符" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_是否继续&#xfffd;&#xfffd;" type="String"/>
+                <entry key="text" value="是否继续" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,155" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00116_是否继续" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DMSYNF" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+        </bean>
+        <bean feature="Group">
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="constraints#xy_location" value="10,240" type="String"/>
+            <entry key="constraints#xy_size" value="720,205" type="String"/>
+            <entry key="id" value="group_账号2" type="String"/>
+            <entry key="text" value="账号2" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,5" type="String"/>
+                <entry key="constraints#xy_size" value="67,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_账号2" type="String"/>
+                <entry key="text" value="账　　号2" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT02_账号2" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-22&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_款项代码" type="String"/>
+                <entry key="text" value="款项代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCT02_款项代码" type="String"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,30" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_户名" type="String"/>
+                <entry key="text" value="户　　名" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,30" type="String"/>
+                <entry key="constraints#xy_size" value="530,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC07002_户名" type="String"/>
+                <entry key="picture" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_支取方式" type="String"/>
+                <entry key="text" value="支取方式" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="125,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00102_支取方式" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="WTPRF" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_密码" type="String"/>
+                <entry key="text" value="密　　码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppPWD02_密码" type="String"/>
+                <entry key="password" value="true" type="Boolean"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="editable" value="false" type="Boolean"/>
+                <entry key="picture" value="-6&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_印鉴卡号" type="String"/>
+                <entry key="text" value="印鉴卡号" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppF10002_印鉴卡号" type="String"/>
+                <entry key="picture" value="&quot;&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_证件类型" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00107_证件类型" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_证件号码" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01802_证件号码" type="String"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_凭证种类" type="String"/>
+                <entry key="text" value="凭证种类" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00302_凭证种类" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DMSTYP" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_凭证号码" type="String"/>
+                <entry key="text" value="凭证号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVOUNUM02_凭证号码" type="String"/>
+                <entry key="picture" value="-10&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_余额" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT02_余额" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_期限" type="String"/>
+                <entry key="text" value="期　　限" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,155" type="String"/>
+                <entry key="constraints#xy_size" value="115,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppI00302_期限" type="String"/>
+                <entry key="picture" value="-3&quot;9&quot;" type="String"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="240,155" type="String"/>
+                <entry key="constraints#xy_size" value="65,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00112_字符" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_是否继续&#xfffd;&#xfffd;" type="String"/>
+                <entry key="text" value="是否继续" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,155" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00117_是否继续" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DMSYNF" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+        </bean>
+        <bean feature="Group">
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="constraints#xy_location" value="10,445" type="String"/>
+            <entry key="constraints#xy_size" value="720,205" type="String"/>
+            <entry key="id" value="group_账号3" type="String"/>
+            <entry key="text" value="账号3" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,5" type="String"/>
+                <entry key="constraints#xy_size" value="67,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_账号3" type="String"/>
+                <entry key="text" value="账　　号3" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT03_账号3" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-22&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label6" type="String"/>
+                <entry key="text" value="款项代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCT03_款项代码" type="String"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,30" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label13" type="String"/>
+                <entry key="text" value="户　　名" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,30" type="String"/>
+                <entry key="constraints#xy_size" value="530,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC07003_户名" type="String"/>
+                <entry key="picture" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label2" type="String"/>
+                <entry key="text" value="支取方式" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="125,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00103_支取方式" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="WTPRF" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label17" type="String"/>
+                <entry key="text" value="密　　码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppPWD03_密码" type="String"/>
+                <entry key="password" value="true" type="Boolean"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="editable" value="false" type="Boolean"/>
+                <entry key="picture" value="-6&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label3" type="String"/>
+                <entry key="text" value="印鉴卡号" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppF10003_印鉴卡号" type="String"/>
+                <entry key="picture" value="&quot;&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label12" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00108_证件类型" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label28" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01803_证件号码" type="String"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label15" type="String"/>
+                <entry key="text" value="凭证种类" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00303_凭证种类" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DMSTYP" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label14" type="String"/>
+                <entry key="text" value="凭证号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVOUNUM03_凭证号码" type="String"/>
+                <entry key="picture" value="-10&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label16" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT03_余额" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label19" type="String"/>
+                <entry key="text" value="期　　限" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,155" type="String"/>
+                <entry key="constraints#xy_size" value="115,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppI00303_期限" type="String"/>
+                <entry key="picture" value="-3&quot;9&quot;" type="String"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="240,155" type="String"/>
+                <entry key="constraints#xy_size" value="65,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00113_字符" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_是否继续" type="String"/>
+                <entry key="text" value="是否继续" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,155" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00118_是否继续" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DMSYNF" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+        </bean>
+        <bean feature="Group">
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="constraints#xy_location" value="10,650" type="String"/>
+            <entry key="constraints#xy_size" value="720,205" type="String"/>
+            <entry key="id" value="group_账号4" type="String"/>
+            <entry key="text" value="账号4" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,5" type="String"/>
+                <entry key="constraints#xy_size" value="67,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_账号4" type="String"/>
+                <entry key="text" value="账　　号4" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT04_账号4" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-22&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label18" type="String"/>
+                <entry key="text" value="款项代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCT04_款项代码" type="String"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,30" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label10" type="String"/>
+                <entry key="text" value="户　　名" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,30" type="String"/>
+                <entry key="constraints#xy_size" value="530,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC07004_户名" type="String"/>
+                <entry key="picture" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label27" type="String"/>
+                <entry key="text" value="支取方式" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="125,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00104_支取方式" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="WTPRF" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label25" type="String"/>
+                <entry key="text" value="密　　码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppPWD04_密码" type="String"/>
+                <entry key="password" value="true" type="Boolean"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="editable" value="false" type="Boolean"/>
+                <entry key="picture" value="-6&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label11" type="String"/>
+                <entry key="text" value="印鉴卡号" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppF10004_印鉴卡号" type="String"/>
+                <entry key="picture" value="&quot;&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label7" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00109_证件类型" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label8" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01804_证件号码" type="String"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label22" type="String"/>
+                <entry key="text" value="凭证种类" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00304_凭证种类" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DMSTYP" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label20" type="String"/>
+                <entry key="text" value="凭证号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVOUNUM04_凭证号码" type="String"/>
+                <entry key="editable" value="true" type="Boolean"/>
+                <entry key="picture" value="-10&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label4" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="475,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT04_余额" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="50,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label24" type="String"/>
+                <entry key="text" value="期　　限" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="125,155" type="String"/>
+                <entry key="constraints#xy_size" value="115,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppI00304_期限" type="String"/>
+                <entry key="picture" value="-3&quot;9&quot;" type="String"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="240,155" type="String"/>
+                <entry key="constraints#xy_size" value="65,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00114_字符" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="400,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_是否继续" type="String"/>
+                <entry key="text" value="是否继续" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="475,155" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00119_是否继续" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DMSYNF" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+        </bean>
+        <bean feature="Group">
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="constraints#xy_location" value="10,855" type="String"/>
+            <entry key="constraints#xy_size" value="720,205" type="String"/>
+            <entry key="id" value="group_账号5" type="String"/>
+            <entry key="text" value="账号5" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,5" type="String"/>
+                <entry key="constraints#xy_size" value="67,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_账号5" type="String"/>
+                <entry key="text" value="账　　号5" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT05_账号5" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-22&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,5" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label36" type="String"/>
+                <entry key="text" value="款项代码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCT05_款项代码" type="String"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,30" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label31" type="String"/>
+                <entry key="text" value="户　　名" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,30" type="String"/>
+                <entry key="constraints#xy_size" value="530,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC07005_户名" type="String"/>
+                <entry key="picture" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label32" type="String"/>
+                <entry key="text" value="支取方式" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="120,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00105_支取方式" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="WTPRF" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label39" type="String"/>
+                <entry key="text" value="密　　码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppPWD05_密码" type="String"/>
+                <entry key="password" value="true" type="Boolean"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="editable" value="false" type="Boolean"/>
+                <entry key="picture" value="-6&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label40" type="String"/>
+                <entry key="text" value="印鉴卡号" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppF10005_印鉴卡号" type="String"/>
+                <entry key="picture" value="&quot;&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label34" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="470,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00110_证件类型" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label37" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01805_证件号码" type="String"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label30" type="String"/>
+                <entry key="text" value="凭证种类" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="470,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00305_凭证种类" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DMSTYP" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label33" type="String"/>
+                <entry key="text" value="凭证号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppVOUNUM05_凭证号码" type="String"/>
+                <entry key="picture" value="-10&quot;8&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label29" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT05_余额" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label38" type="String"/>
+                <entry key="text" value="期　　限" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,155" type="String"/>
+                <entry key="constraints#xy_size" value="115,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppI00305_期限" type="String"/>
+                <entry key="picture" value="-3&quot;9&quot;" type="String"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="235,155" type="String"/>
+                <entry key="constraints#xy_size" value="65,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00115_字符" type="String"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="345,155" type="String"/>
+                <entry key="constraints#xy_size" value="11,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label41" type="String"/>
+                <entry key="text" value="" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+        </bean>
+        <bean feature="Group">
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="constraints#xy_location" value="10,1060" type="String"/>
+            <entry key="constraints#xy_size" value="720,470" type="String"/>
+            <entry key="id" value="group_汇总信息" type="String"/>
+            <entry key="text" value="汇总信息" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="15,5" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label1_证明类型" type="String"/>
+                <entry key="text" value="证明类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="120,5" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="combo1_证明类型" type="String"/>
+                <entry key="combo_items" value="1 时点证明,2 时段证明" type="String[]"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,30" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_ACCTT01_账号11" type="String"/>
+                <entry key="text" value="账   号1" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,30" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT01A_账号11" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,30" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label1_户名" type="String"/>
+                <entry key="text" value="户　　名1" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,30" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text1_户名" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label44" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="120,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00110A_证件类型1" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,55" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label45" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,55" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01805A_证件号码1" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,80" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_AMT01_余额1" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,80" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT01A_余额1" type="String"/>
+                <entry key="editable" value="true" type="Boolean"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,80" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label23" type="String"/>
+                <entry key="text" value="期　　限1" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,80" type="String"/>
+                <entry key="constraints#xy_size" value="110,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text_期限1" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="580,80" type="String"/>
+                <entry key="constraints#xy_size" value="70,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="combo1_期限1" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,105" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_ACCTT02_账号21" type="String"/>
+                <entry key="text" value="账   号2" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT02A_账号21" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,105" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label1" type="String"/>
+                <entry key="text" value="户　　名2" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,105" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text2_户名" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label46" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="120,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00110A_证件类型2" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,130" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label47" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,130" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01805A_证件号码2" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,155" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_AMT02_余额1" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,155" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT02A_余额1" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,155" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label26" type="String"/>
+                <entry key="text" value="期　　限2" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,155" type="String"/>
+                <entry key="constraints#xy_size" value="110,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text_期限2" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="580,155" type="String"/>
+                <entry key="constraints#xy_size" value="70,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="combo2_期限2" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,180" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_ACCTT03_账号31" type="String"/>
+                <entry key="text" value="账   号3" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,180" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT03A_账号31" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,180" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label5" type="String"/>
+                <entry key="text" value="户　　名3" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,180" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text3_户名" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,205" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label48" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="120,205" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00110A_证件类型3" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,205" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label49" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,205" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01805A_证件号码3" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,230" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_AMT03_余额1" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,230" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT03A_余额1" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,230" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label35" type="String"/>
+                <entry key="text" value="期　　限3" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,230" type="String"/>
+                <entry key="constraints#xy_size" value="110,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text_期限3" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="580,230" type="String"/>
+                <entry key="constraints#xy_size" value="70,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="combo3_期限3" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,255" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_ACCTT04_账号41" type="String"/>
+                <entry key="text" value="账   号4" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,255" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT04A_账号41" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,255" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label9" type="String"/>
+                <entry key="text" value="户　　名4" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,255" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text4_户名" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,280" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label50" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="120,280" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00110A_证件类型4" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,280" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label51" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,280" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01805A_证件号码4" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,305" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_AMT04_余额1" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,305" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT04A_余额1" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,305" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label42" type="String"/>
+                <entry key="text" value="期　　限4" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,305" type="String"/>
+                <entry key="constraints#xy_size" value="110,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text_期限4" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="580,305" type="String"/>
+                <entry key="constraints#xy_size" value="70,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="combo4_期限4" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,330" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_ACCTT05_账号51" type="String"/>
+                <entry key="text" value="账   号5" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,330" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppACCTT05A_账号51" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture" value="-32&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,330" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label21" type="String"/>
+                <entry key="text" value="户　　名5" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,330" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text5_户名" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,355" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label52" type="String"/>
+                <entry key="text" value="证件类型" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="120,355" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC00110A_证件类型5" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="IDTY" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,355" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label53" type="String"/>
+                <entry key="text" value="证件号码" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,355" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppC01805A_证件号码5" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,380" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_AMT05_余额1" type="String"/>
+                <entry key="text" value="余　　额" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,380" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT05A_余额1" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="365,380" type="String"/>
+                <entry key="constraints#xy_size" value="90,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label43" type="String"/>
+                <entry key="text" value="期　　限5" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,380" type="String"/>
+                <entry key="constraints#xy_size" value="110,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="text_期限5" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+            </bean>
+            <bean feature="Combo">
+                <entry key="constraints#xy_location" value="580,380" type="String"/>
+                <entry key="constraints#xy_size" value="70,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="combo5_期限5" type="String"/>
+                <entry key="enable" value="false" type="Boolean"/>
+                <entry key="combo_items_para_file"
+                    value="/${project_name}/resources/para/abs_combo_00000.ini" type="String"/>
+                <entry key="combo_items_list_name" value="DPTIME" type="String"/>
+                <entry key="relations" value="" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="45,405" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_金额合计" type="String"/>
+                <entry key="text" value="金额合计" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,405" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT06_金额合计" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,405" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_止付日" type="String"/>
+                <entry key="text" value="止 付 日" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="CalendarCombo">
+                <entry key="constraints#xy_location" value="470,405" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppDATE01_止付日" type="String"/>
+                <entry key="requisite" value="true" type="Boolean"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="31,430" type="String"/>
+                <entry key="constraints#xy_size" value="74,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_证明书张数" type="String"/>
+                <entry key="text" value="证明书张数" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="120,430" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppI00101_证明书张数" type="String"/>
+                <entry key="picture" value="-1&quot;9&quot;" type="String"/>
+            </bean>
+            <bean feature="Label">
+                <entry key="constraints#xy_location" value="395,430" type="String"/>
+                <entry key="constraints#xy_size" value="60,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="label_手续费" type="String"/>
+                <entry key="text" value="手 续 费" type="String"/>
+                <entry key="horizontal_alignment" value="4" type="Integer"/>
+            </bean>
+            <bean feature="Text">
+                <entry key="constraints#xy_location" value="470,430" type="String"/>
+                <entry key="constraints#xy_size" value="180,20" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="ppAMT07_手续费" type="String"/>
+                <entry key="picture"
+                    value="&quot;999,999,999,999,999.99&quot;" type="String"/>
+            </bean>
+        </bean>
+    </bean>
+    <bean feature="Group">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="35,1590" type="String"/>
+        <entry key="constraints#xy_size" value="750,65" type="String"/>
+        <entry key="id" value="group_输出结果" type="String"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="25,10" type="String"/>
+            <entry key="constraints#xy_size" value="102,20" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="id" value="label_存款证明书号码" type="String"/>
+            <entry key="text" value="存款证明书号码" type="String"/>
+            <entry key="horizontal_alignment" value="4" type="Integer"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="140,10" type="String"/>
+            <entry key="constraints#xy_size" value="180,20" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="id" value="ppF12001_存款证明书号码" type="String"/>
+            <entry key="picture" value="&quot;&quot;" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Button">
+        <entry key="constraints#xy_location" value="305,1655" type="String"/>
+        <entry key="constraints#xy_size" value="78,28" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="button_提交" type="String"/>
+        <entry key="text" value="提交" type="String"/>
+    </bean>
+    <bean feature="Button">
+        <entry key="constraints#xy_location" value="455,1655" type="String"/>
+        <entry key="constraints#xy_size" value="78,28" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="button_退出" type="String"/>
+        <entry key="text" value="退出" type="String"/>
+    </bean>
+</content>

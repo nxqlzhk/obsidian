@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="GBK"?>
+<content>
+    <entry key="layout#layout" value="grid" type="String"/>
+    <entry key="layout#numcolumns" value="1" type="Integer"/>
+    <entry key="layout#makeequalwidth" value="true" type="Boolean"/>
+    <entry key="layout#marginwidth" value="0" type="Integer"/>
+    <entry key="layout#marginheight" value="0" type="Integer"/>
+    <entry key="layout#hspacing" value="0" type="Integer"/>
+    <entry key="layout#vspacing" value="0" type="Integer"/>
+    <entry key="constraints#xy_location" value="0,0" type="String"/>
+    <entry key="constraints#xy_size" value="1024,768" type="String"/>
+    <entry key="enable" value="true" type="Boolean"/>
+    <entry key="visible" value="true" type="Boolean"/>
+    <entry key="scrollable" value="false" type="Boolean"/>
+    <entry key="backgroundImage" value="" type="String"/>
+    <entry key="backgroundImageType" value="平铺" type="String"/>
+    <entry key="themeStyle" value="Main" type="String"/>
+    <entry key="title" value="" type="String"/>
+    <entry key="tooltip" value="" type="String"/>
+    <entry key="parent_trade" value="" type="String"/>
+    <entry key="help" value="" type="String"/>
+    <entry key="cls" value="" type="String"/>
+    <entry key="dictionary_key" value="" type="String"/>
+    <entry key="methods"
+        value="button_FaQi_OnClick,button_GeXing_OnClick,button_ZhengHe_OnClick,button_Tool_OnClick,button_Help_OnClick,button_Check_OnClick,button_Config_OnClick,dynamicImage_即时消息_OnClick,image1_OnClick,tree1_OnDoubleClick,tool_锁屏_OnClick,tool_快速查询_OnClick,menu_快速查询_OnClick,tool_辅助工具_OnClick,menu_辅助工具_OnClick,tool_系统帮助_OnClick,menu_系统帮助_OnClick,tool_系统设置_OnClick,menu_系统设置_OnClick,tool_退出_OnClick,tool_联网核查_OnClick,menu_联网核查_OnClick,image_国结系统_OnClick,image_网上银行_OnClick,image_中间业务_OnClick,image_理财平台_OnClick,image_差错平台_OnClick,image_积分管理_OnClick,image_事后监督_OnClick,image_统一报表平台_OnClick,image_现金管理_OnClick,image_信贷系统_OnClick,image_反洗钱系统_OnClick,image_综合业务系统_OnClick,image_短信平台_OnClick,image_支票影像_OnClick,image_行内验印_OnClick,image_财务管理_OnClick,image_客户信息_OnClick,image_电子验印_OnClick,image_大额存单系统_OnClick,multitradecomposite_交易区_OnFinish,tree_个性菜单_OnDoubleClick,button_Back_OnClick,button_Next_OnClick,list1_OnDoubleClick" type="String"/>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="fill" type="String"/>
+        <entry key="layout#horizontal" value="true" type="Boolean"/>
+        <entry key="layout#spacing" value="0" type="Integer"/>
+        <entry key="layout#marginwidth" value="0" type="Integer"/>
+        <entry key="layout#marginheight" value="0" type="Integer"/>
+        <entry key="constraints#grid_width" value="-1" type="Integer"/>
+        <entry key="constraints#grid_height" value="-1" type="Integer"/>
+        <entry key="constraints#grid_hspan" value="1" type="Integer"/>
+        <entry key="constraints#grid_vspan" value="1" type="Integer"/>
+        <entry key="constraints#grid_halign" value="fill" type="String"/>
+        <entry key="constraints#grid_valign" value="fill" type="String"/>
+        <entry key="constraints#grid_hgrab" value="true" type="Boolean"/>
+        <entry key="constraints#grid_vgrab" value="true" type="Boolean"/>
+        <entry key="constraints#grid_hindent" value="0" type="Integer"/>
+        <entry key="id" value="composite_body" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="themeStyle" value="Transparent" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="xy_size" value="80,20" type="String"/>
+        <bean feature="SashForm">
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="id" value="sashform_上下" type="String"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="layout_horizontal" value="false" type="Boolean"/>
+            <entry key="themeStyle" value="ASashFormStyle" type="String"/>
+            <entry key="xy_size" value="80,20" type="String"/>
+            <bean feature="Composite">
+                <entry key="layout#layout" value="grid" type="String"/>
+                <entry key="layout#numcolumns" value="1" type="Integer"/>
+                <entry key="layout#makeequalwidth" value="false" type="Boolean"/>
+                <entry key="layout#marginwidth" value="0" type="Integer"/>
+                <entry key="layout#marginheight" value="0" type="Integer"/>
+                <entry key="layout#hspacing" value="0" type="Integer"/>
+                <entry key="layout#vspacing" value="0" type="Integer"/>
+                <entry key="constraints#weight" value="6" type="Integer"/>
+                <entry key="id" value="composite_标题" type="String"/>
+                <entry key="enable" value="true" type="Boolean"/>
+                <entry key="visible" value="true" type="Boolean"/>
+                <entry key="scrollable" value="false" type="Boolean"/>
+                <entry key="backgroundImage" value="" type="String"/>
+                <entry key="backgroundImageType" value="平铺" type="String"/>
+                <entry key="themeStyle" value="" type="String"/>
+                <entry key="layout_style" value="old" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="xy_size" value="90,20" type="String"/>
+                <bean feature="Composite">
+                    <entry key="layout#layout" value="xy" type="String"/>
+                    <entry key="constraints#grid_width" value="-1" type="Integer"/>
+                    <entry key="constraints#grid_height" value="20" type="Integer"/>
+                    <entry key="constraints#grid_hspan" value="1" type="Integer"/>
+                    <entry key="constraints#grid_vspan" value="1" type="Integer"/>
+                    <entry key="constraints#grid_halign" value="fill" type="String"/>
+                    <entry key="constraints#grid_valign" value="center" type="String"/>
+                    <entry key="constraints#grid_hgrab" value="false" type="Boolean"/>
+                    <entry key="constraints#grid_vgrab" value="false" type="Boolean"/>
+                    <entry key="constraints#grid_hindent" value="0" type="Integer"/>
+                    <entry key="id" value="composite99" type="String"/>
+                    <entry key="themeStyle" value="titleBarStyle" type="String"/>
+                    <entry key="dictionary_key" value="" type="String"/>
+                    <entry key="xy_size" value="80,20" type="String"/>
+                </bean>
+                <bean feature="Composite">
+                    <entry key="layout#layout" value="grid" type="String"/>
+                    <entry key="layout#numcolumns" value="4" type="Integer"/>
+                    <entry key="layout#makeequalwidth" value="false" type="Boolean"/>
+                    <entry key="layout#marginwidth" value="0" type="Integer"/>
+                    <entry key="layout#marginheight" value="0" type="Integer"/>
+                    <entry key="layout#hspacing" value="0" type="Integer"/>
+                    <entry key="layout#vspacing" value="0" type="Integer"/>
+                    <entry key="constraints#grid_width" value="1024" type="Integer"/>
+                    <entry key="constraints#grid_height" value="75" type="Integer"/>
+                    <entry key="constraints#grid_hspan" value="1" type="Integer"/>
+                    <entry key="constraints#grid_vspan" value="4" type="Integer"/>
+                    <entry key="constraints#grid_halign" value="fill" type="String"/>
+                    <entry key="constraints#grid_valign" value="center" type="String"/>
+                    <entry key="constraints#grid_hgrab" value="true" type="Boolean"/>
+                    <entry key="constraints#grid_vgrab" value="false" type="Boolean"/>
+                    <entry key="constraints#grid_hindent" value="0" type="Integer"/>
+                    <entry key="id" value="composite1" type="String"/>
+                    <entry key="themeStyle" value="Top" type="String"/>
+                    <entry key="dictionary_key" value="" type="String"/>
+                    <entry key="xy_size" value="80,20" type="String"/>
+                    <bean feature="Composite">
+                        <entry key="layout#layout" value="xy" type="String"/>
+                        <entry key="constraints#grid_width" value="300" type="Integer"/>
+                        <entry key="constraints#grid_height" value="-1" type="Integer"/>
+                        <entry key="constraints#grid_hspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_vspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_halign"
+                            value="beginning" type="String"/>
+                        <entry key="constraints#grid_valign"
+                            value="fill" type="String"/>
+                        <entry key="constraints#grid_hgrab"
+                            value="false" type="Boolean"/>
+                        <entry key="constraints#grid_vgrab" value="true" type="Boolean"/>
+                        <entry key="constraints#grid_hindent" value="0" type="Integer"/>
+                        <entry key="id" value="composite3" type="String"/>
+                        <entry key="dictionary_key" value="" type="String"/>
+                        <entry key="xy_size" value="80,20" type="String"/>
+                        <bean feature="Label">
+                            <entry key="constraints#xy_location"
+                                value="5,15" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="300,45" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="tool_小标题" type="String"/>
+                            <entry key="text"
+                                value="                                     " type="String"/>
+                            <entry key="foreground" value="221,223,225" type="String"/>
+                            <entry key="font" value="微软雅黑$12$0" type="String"/>
+                            <entry key="link" value="true" type="Boolean"/>
+                        </bean>
+                    </bean>
+                    <bean feature="Composite">
+                        <entry key="layout#layout" value="xy" type="String"/>
+                        <entry key="constraints#grid_width" value="500" type="Integer"/>
+                        <entry key="constraints#grid_height" value="-1" type="Integer"/>
+                        <entry key="constraints#grid_hspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_vspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_halign"
+                            value="beginning" type="String"/>
+                        <entry key="constraints#grid_valign"
+                            value="fill" type="String"/>
+                        <entry key="constraints#grid_hgrab"
+                            value="false" type="Boolean"/>
+                        <entry key="constraints#grid_vgrab" value="true" type="Boolean"/>
+                        <entry key="constraints#grid_hindent" value="0" type="Integer"/>
+                        <entry key="id" value="composite4" type="String"/>
+                        <entry key="dictionary_key" value="" type="String"/>
+                        <entry key="xy_size" value="80,20" type="String"/>
+                        <bean feature="Label">
+                            <entry key="constraints#xy_location"
+                                value="5,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="52,70" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="tool_辅助工具" type="String"/>
+                            <entry key="text" value="      " type="String"/>
+                            <entry key="foreground" value="221,223,225" type="String"/>
+                            <entry key="font" value="微软雅黑$12$0" type="String"/>
+                            <entry key="link" value="true" type="Boolean"/>
+                        </bean>
+                        <bean feature="Label">
+                            <entry key="constraints#xy_location"
+                                value="75,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="52,70" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="tool_系统设置" type="String"/>
+                            <entry key="text" value="      " type="String"/>
+                            <entry key="foreground" value="221,223,225" type="String"/>
+                            <entry key="font" value="微软雅黑$12$0" type="String"/>
+                            <entry key="link" value="true" type="Boolean"/>
+                        </bean>
+                        <bean feature="Label">
+                            <entry key="constraints#xy_location"
+                                value="150,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="52,70" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="tool_系统帮助" type="String"/>
+                            <entry key="text" value="      " type="String"/>
+                            <entry key="foreground" value="221,223,225" type="String"/>
+                            <entry key="font" value="微软雅黑$12$0" type="String"/>
+                            <entry key="link" value="true" type="Boolean"/>
+                        </bean>
+                        <bean feature="Menu">
+                            <entry key="constraints#xy_location"
+                                value="20,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="35,40" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="menu_辅助工具" type="String"/>
+                            <entry key="menu_root_node"
+                                value="root,root,root,&quot;&quot;&quot;定时提醒,,menu_提醒&quot;&quot;,&quot;&quot;计算器,,menu_计算器,&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;存款计算器,,menu_存款计算器&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;,&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;贷款,,menu_贷款&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;,&quot;&quot;个性化菜单维护,,menu_个性化菜单维护&quot;&quot;&quot;" type="TreeNode"/>
+                        </bean>
+                        <bean feature="Menu">
+                            <entry key="constraints#xy_location"
+                                value="90,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="45,40" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="menu_系统设置" type="String"/>
+                            <entry key="menu_root_node"
+                                value="root,root,root,&quot;&quot;&quot;设置锁屏时间,,menu_设置锁屏时间&quot;&quot;,&quot;&quot;柜员信息维护,,menu_柜员信息维护&quot;&quot;,&quot;&quot;设置系统主题,,menu_设置系统主题&quot;&quot;&quot;" type="TreeNode"/>
+                        </bean>
+                        <bean feature="Menu">
+                            <entry key="constraints#xy_location"
+                                value="160,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="45,40" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="menu_系统帮助" type="String"/>
+                            <entry key="menu_root_node"
+                                value="root,root,root,&quot;&quot;&quot;在线通知,,menu_在线通知,&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;在线通知,,menu_在线通知发布&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;,&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;在线通知登记薄查询,,menu_在线通知登记薄&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;,&quot;&quot;在线帮助,,meun_在线帮助,&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;帮助信息查询,,menu_帮助查看&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;,&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;帮助信息维护,,menu_帮助维护&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;,&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;帮助信息维护查询打印,,menu_帮助信息维护查询打印&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;" type="TreeNode"/>
+                        </bean>
+                        <bean feature="Label">
+                            <entry key="constraints#xy_location"
+                                value="220,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="52,70" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="tool_联网核查" type="String"/>
+                            <entry key="text" value="      " type="String"/>
+                            <entry key="foreground" value="221,223,225" type="String"/>
+                            <entry key="font" value="微软雅黑$12$0" type="String"/>
+                            <entry key="link" value="true" type="Boolean"/>
+                        </bean>
+                        <bean feature="Menu">
+                            <entry key="constraints#xy_location"
+                                value="235,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="45,40" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="menu_联网核查" type="String"/>
+                            <entry key="menu_root_node"
+                                value="root,root,root,&quot;&quot;&quot;联网核查,,menu_联网核查&quot;&quot;,&quot;&quot;联网核查汇总查询打印,,menu_联网核查汇总打印&quot;&quot;&quot;" type="TreeNode"/>
+                        </bean>
+                        <bean feature="Label">
+                            <entry key="constraints#xy_location"
+                                value="290,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="52,70" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="tool_快速查询" type="String"/>
+                            <entry key="text" value="      " type="String"/>
+                            <entry key="foreground" value="221,223,225" type="String"/>
+                            <entry key="font" value="微软雅黑$12$0" type="String"/>
+                            <entry key="link" value="true" type="Boolean"/>
+                        </bean>
+                        <bean feature="Menu">
+                            <entry key="constraints#xy_location"
+                                value="300,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="45,40" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="menu_快速查询" type="String"/>
+                            <entry key="menu_root_node"
+                                value="root,root,root,&quot;&quot;&quot;未签退机构,,menu_未签退机构&quot;&quot;,&quot;&quot;运送中现金,,menu_运送中现金&quot;&quot;,&quot;&quot;尾箱余额,,menu_尾箱余额&quot;&quot;,&quot;&quot;利率查询,,menu_利率查询&quot;&quot;,&quot;&quot;汇率查询,,menu_汇率查询&quot;&quot;,&quot;&quot;机构信息,,menu_机构信息&quot;&quot;,&quot;&quot;柜员信息,,menu_柜员信息&quot;&quot;,&quot;&quot;凭证存量查询,,menu_凭证存量查询&quot;&quot;&quot;" type="TreeNode"/>
+                        </bean>
+                        <bean feature="Label">
+                            <entry key="constraints#xy_location"
+                                value="355,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="52,70" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="tool_锁屏" type="String"/>
+                            <entry key="text" value="      " type="String"/>
+                            <entry key="foreground" value="221,223,225" type="String"/>
+                            <entry key="font" value="微软雅黑$12$0" type="String"/>
+                            <entry key="link" value="true" type="Boolean"/>
+                        </bean>
+                        <bean feature="Label">
+                            <entry key="constraints#xy_location"
+                                value="420,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="52,70" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="tool_退出" type="String"/>
+                            <entry key="text" value="      " type="String"/>
+                            <entry key="foreground" value="221,223,225" type="String"/>
+                            <entry key="font" value="微软雅黑$12$0" type="String"/>
+                            <entry key="link" value="true" type="Boolean"/>
+                            <entry key="OnClick" value="false" type="Boolean"/>
+                        </bean>
+                    </bean>
+                    <bean feature="Composite">
+                        <entry key="layout#layout" value="xy" type="String"/>
+                        <entry key="constraints#grid_width" value="180" type="Integer"/>
+                        <entry key="constraints#grid_height" value="-1" type="Integer"/>
+                        <entry key="constraints#grid_hspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_vspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_halign"
+                            value="beginning" type="String"/>
+                        <entry key="constraints#grid_valign"
+                            value="fill" type="String"/>
+                        <entry key="constraints#grid_hgrab"
+                            value="false" type="Boolean"/>
+                        <entry key="constraints#grid_vgrab" value="true" type="Boolean"/>
+                        <entry key="constraints#grid_hindent" value="0" type="Integer"/>
+                        <entry key="id" value="composite5" type="String"/>
+                        <entry key="themeStyle" value="" type="String"/>
+                        <entry key="dictionary_key" value="" type="String"/>
+                        <entry key="xy_size" value="80,20" type="String"/>
+                        <bean feature="ExpandableText">
+                            <entry key="layout#layout" value="xy" type="String"/>
+                            <entry key="constraints#xy_location"
+                                value="5,25" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="150,25" type="String"/>
+                            <entry key="id" value="text_交易代码" type="String"/>
+                            <entry key="themeStyle" value="Transparent" type="String"/>
+                            <entry key="feature_name"
+                                value="ExpandableText" type="String"/>
+                            <entry key="help" value="支持模糊查询" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="font" value="宋体$12$0" type="String"/>
+                        </bean>
+                        <bean feature="Image">
+                            <entry key="constraints#xy_location"
+                                value="155,25" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="25,25" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="id" value="image2" type="String"/>
+                            <entry key="image"
+                                value="/${project_name}/resources/image/search.png" type="String"/>
+                        </bean>
+                    </bean>
+                </bean>
+            </bean>
+            <bean feature="BookComposite">
+                <entry key="constraints#weight" value="35" type="Integer"/>
+                <entry key="id" value="bookcomposite1" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="xy_size" value="80,20" type="String"/>
+                <bean feature="Composite">
+                    <entry key="dictionary_key" value="" type="String"/>
+                    <entry key="layout#layout" value="grid" type="String"/>
+                    <entry key="layout#numcolumns" value="2" type="Integer"/>
+                    <entry key="layout#makeequalwidth" value="false" type="Boolean"/>
+                    <entry key="layout#marginwidth" value="5" type="Integer"/>
+                    <entry key="layout#marginheight" value="5" type="Integer"/>
+                    <entry key="layout#hspacing" value="5" type="Integer"/>
+                    <entry key="layout#vspacing" value="5" type="Integer"/>
+                    <entry key="id" value="composite6" type="String"/>
+                    <entry key="dictionary_key" value="" type="String"/>
+                    <entry key="xy_size" value="80,20" type="String"/>
+                    <bean feature="Composite">
+                        <entry key="layout#layout" value="xy" type="String"/>
+                        <entry key="constraints#grid_width" value="-1" type="Integer"/>
+                        <entry key="constraints#grid_height" value="-1" type="Integer"/>
+                        <entry key="constraints#grid_hspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_vspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_halign"
+                            value="fill" type="String"/>
+                        <entry key="constraints#grid_valign"
+                            value="fill" type="String"/>
+                        <entry key="constraints#grid_hgrab" value="true" type="Boolean"/>
+                        <entry key="constraints#grid_vgrab" value="true" type="Boolean"/>
+                        <entry key="constraints#grid_hindent" value="0" type="Integer"/>
+                        <entry key="id" value="composite_欢迎页" type="String"/>
+                        <entry key="dictionary_key" value="" type="String"/>
+                        <entry key="xy_size" value="80,20" type="String"/>
+                        <bean feature="BookComposite">
+                            <entry key="constraints#xy_location"
+                                value="10,10" type="String"/>
+                            <entry key="constraints#xy_size"
+                                value="440,540" type="String"/>
+                            <entry key="id" value="bookcomposite2" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <bean feature="Composite">
+                                <entry key="dictionary_key" value="" type="String"/>
+                                <entry key="layout#layout" value="xy" type="String"/>
+                                <entry key="id" value="composite20" type="String"/>
+                                <entry key="dictionary_key" value="" type="String"/>
+                                <entry key="xy_size" value="80,20" type="String"/>
+                                <bean feature="Label">
+                                    <entry key="constraints#xy_location"
+                                    value="5,35" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="103,45" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="id" value="label15" type="String"/>
+                                    <entry key="text" value="个人中心 " type="String"/>
+                                    <entry key="font" value="微软雅黑$18$0" type="String"/>
+                                </bean>
+                                <bean feature="Composite">
+                                    <entry key="layout#layout"
+                                    value="fill" type="String"/>
+                                    <entry key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                    <entry key="layout#spacing"
+                                    value="3" type="Integer"/>
+                                    <entry key="layout#marginwidth"
+                                    value="5" type="Integer"/>
+                                    <entry key="layout#marginheight"
+                                    value="5" type="Integer"/>
+                                    <entry key="constraints#xy_location"
+                                    value="5,95" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="85,120" type="String"/>
+                                    <entry key="id" value="composite22" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="BackPanel" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <bean feature="Image">
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id" value="image3" type="String"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/service.png" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,20" type="String"/>
+                                    </bean>
+                                </bean>
+                                <bean feature="Composite">
+                                    <entry key="layout#layout"
+                                    value="xy" type="String"/>
+                                    <entry key="constraints#xy_location"
+                                    value="90,95" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="340,120" type="String"/>
+                                    <entry key="id" value="composite23" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="BackPanel" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <bean feature="Label">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="0,0" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="68,28" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id" value="label18" type="String"/>
+                                    <entry key="text" value="柜 员 号" type="String"/>
+                                    <entry key="font"
+                                    value="微软雅黑$12$0" type="String"/>
+                                    </bean>
+                                    <bean feature="Label">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="70,0" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="260,28" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="label_柜员号" type="String"/>
+                                    <entry key="text"
+                                    value="                                " type="String"/>
+                                    <entry key="font"
+                                    value="宋体$12$0" type="String"/>
+                                    </bean>
+                                    <bean feature="Label">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="0,30" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="68,28" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id" value="label16" type="String"/>
+                                    <entry key="text" value="柜员姓名" type="String"/>
+                                    <entry key="font"
+                                    value="微软雅黑$12$0" type="String"/>
+                                    </bean>
+                                    <bean feature="Label">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="70,30" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="260,28" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="label_柜员姓名" type="String"/>
+                                    <entry key="text"
+                                    value="                                " type="String"/>
+                                    <entry key="font"
+                                    value="宋体$12$0" type="String"/>
+                                    </bean>
+                                    <bean feature="Label">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="0,60" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="68,28" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id" value="label20" type="String"/>
+                                    <entry key="text" value="机 构 号" type="String"/>
+                                    <entry key="font"
+                                    value="微软雅黑$12$0" type="String"/>
+                                    </bean>
+                                    <bean feature="Label">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="70,60" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="260,28" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="label_机构号" type="String"/>
+                                    <entry key="text"
+                                    value="                                " type="String"/>
+                                    <entry key="font"
+                                    value="宋体$12$0" type="String"/>
+                                    </bean>
+                                    <bean feature="Label">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="0,90" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="68,28" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id" value="label1" type="String"/>
+                                    <entry key="text" value="机构名称" type="String"/>
+                                    <entry key="font"
+                                    value="微软雅黑$12$0" type="String"/>
+                                    </bean>
+                                    <bean feature="Label">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="70,90" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="260,28" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="label_机构名称" type="String"/>
+                                    <entry key="text"
+                                    value="                                " type="String"/>
+                                    <entry key="font"
+                                    value="宋体$12$0" type="String"/>
+                                    </bean>
+                                </bean>
+                                <bean feature="Label">
+                                    <entry key="constraints#xy_location"
+                                    value="5,215" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="48,45" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="id" value="label22" type="String"/>
+                                    <entry key="text" value="通知" type="String"/>
+                                    <entry key="font" value="微软雅黑$18$0" type="String"/>
+                                </bean>
+                                <bean feature="Composite">
+                                    <entry key="layout#layout"
+                                    value="xy" type="String"/>
+                                    <entry key="constraints#xy_location"
+                                    value="5,260" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="425,230" type="String"/>
+                                    <entry key="id" value="composite24" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="BackPanel" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <bean feature="List">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,5" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="415,220" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id" value="list1" type="String"/>
+                                    <entry key="font"
+                                    value="微软雅黑$12$0" type="String"/>
+                                    </bean>
+                                </bean>
+                            </bean>
+                        </bean>
+                    </bean>
+                    <bean feature="Composite">
+                        <entry key="layout#layout" value="grid" type="String"/>
+                        <entry key="layout#numcolumns" value="1" type="Integer"/>
+                        <entry key="layout#makeequalwidth" value="false" type="Boolean"/>
+                        <entry key="layout#marginwidth" value="80" type="Integer"/>
+                        <entry key="layout#marginheight" value="40" type="Integer"/>
+                        <entry key="layout#hspacing" value="30" type="Integer"/>
+                        <entry key="layout#vspacing" value="5" type="Integer"/>
+                        <entry key="constraints#grid_width" value="-1" type="Integer"/>
+                        <entry key="constraints#grid_height" value="-1" type="Integer"/>
+                        <entry key="constraints#grid_hspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_vspan" value="1" type="Integer"/>
+                        <entry key="constraints#grid_halign"
+                            value="fill" type="String"/>
+                        <entry key="constraints#grid_valign"
+                            value="fill" type="String"/>
+                        <entry key="constraints#grid_hgrab" value="true" type="Boolean"/>
+                        <entry key="constraints#grid_vgrab" value="true" type="Boolean"/>
+                        <entry key="constraints#grid_hindent" value="0" type="Integer"/>
+                        <entry key="id" value="composite9" type="String"/>
+                        <entry key="dictionary_key" value="" type="String"/>
+                        <entry key="xy_size" value="80,20" type="String"/>
+                        <bean feature="Composite">
+                            <entry key="layout#layout" value="xy" type="String"/>
+                            <entry key="constraints#grid_width"
+                                value="400" type="Integer"/>
+                            <entry key="constraints#grid_height"
+                                value="55" type="Integer"/>
+                            <entry key="constraints#grid_hspan"
+                                value="1" type="Integer"/>
+                            <entry key="constraints#grid_vspan"
+                                value="1" type="Integer"/>
+                            <entry key="constraints#grid_halign"
+                                value="fill" type="String"/>
+                            <entry key="constraints#grid_valign"
+                                value="beginning" type="String"/>
+                            <entry key="constraints#grid_hgrab"
+                                value="false" type="Boolean"/>
+                            <entry key="constraints#grid_vgrab"
+                                value="false" type="Boolean"/>
+                            <entry key="constraints#grid_hindent"
+                                value="0" type="Integer"/>
+                            <entry key="id" value="composite10" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="xy_size" value="80,20" type="String"/>
+                            <bean feature="Label">
+                                <entry key="constraints#xy_location"
+                                    value="10,5" type="String"/>
+                                <entry key="constraints#xy_size"
+                                    value="103,40" type="String"/>
+                                <entry key="dictionary_key" value="" type="String"/>
+                                <entry key="id" value="label14" type="String"/>
+                                <entry key="text" value="业务功能 " type="String"/>
+                                <entry key="font" value="微软雅黑$18$0" type="String"/>
+                            </bean>
+                        </bean>
+                        <bean feature="Composite">
+                            <entry key="layout#layout" value="grid" type="String"/>
+                            <entry key="layout#numcolumns" value="2" type="Integer"/>
+                            <entry key="layout#makeequalwidth"
+                                value="true" type="Boolean"/>
+                            <entry key="layout#marginwidth" value="3" type="Integer"/>
+                            <entry key="layout#marginheight" value="3" type="Integer"/>
+                            <entry key="layout#hspacing" value="3" type="Integer"/>
+                            <entry key="layout#vspacing" value="3" type="Integer"/>
+                            <entry key="constraints#grid_width"
+                                value="400" type="Integer"/>
+                            <entry key="constraints#grid_height"
+                                value="400" type="Integer"/>
+                            <entry key="constraints#grid_hspan"
+                                value="2" type="Integer"/>
+                            <entry key="constraints#grid_vspan"
+                                value="2" type="Integer"/>
+                            <entry key="constraints#grid_halign"
+                                value="beginning" type="String"/>
+                            <entry key="constraints#grid_valign"
+                                value="center" type="String"/>
+                            <entry key="constraints#grid_hgrab"
+                                value="false" type="Boolean"/>
+                            <entry key="constraints#grid_vgrab"
+                                value="false" type="Boolean"/>
+                            <entry key="constraints#grid_hindent"
+                                value="0" type="Integer"/>
+                            <entry key="id" value="composite11" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="xy_size" value="80,20" type="String"/>
+                            <bean feature="Composite">
+                                <entry key="layout#layout" value="fill" type="String"/>
+                                <entry key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                <entry key="layout#spacing" value="3" type="Integer"/>
+                                <entry key="layout#marginwidth"
+                                    value="1" type="Integer"/>
+                                <entry key="layout#marginheight"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_width"
+                                    value="-1" type="Integer"/>
+                                <entry key="constraints#grid_height"
+                                    value="-1" type="Integer"/>
+                                <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                <entry key="constraints#grid_vgrab"
+                                    value="true" type="Boolean"/>
+                                <entry key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                <entry key="id" value="composite12" type="String"/>
+                                <entry key="dictionary_key" value="" type="String"/>
+                                <entry key="xy_size" value="80,20" type="String"/>
+                                <bean feature="Button">
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="id" value="button_FaQi" type="String"/>
+                                    <entry key="tooltip" value="" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="DynamicButton" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                </bean>
+                            </bean>
+                            <bean feature="Composite">
+                                <entry key="layout#layout" value="fill" type="String"/>
+                                <entry key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                <entry key="layout#spacing" value="3" type="Integer"/>
+                                <entry key="layout#marginwidth"
+                                    value="1" type="Integer"/>
+                                <entry key="layout#marginheight"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_width"
+                                    value="-1" type="Integer"/>
+                                <entry key="constraints#grid_height"
+                                    value="-1" type="Integer"/>
+                                <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                <entry key="constraints#grid_vgrab"
+                                    value="true" type="Boolean"/>
+                                <entry key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                <entry key="id" value="composite13" type="String"/>
+                                <entry key="dictionary_key" value="" type="String"/>
+                                <entry key="xy_size" value="80,20" type="String"/>
+                                <bean feature="Button">
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="id"
+                                    value="button_GeXing" type="String"/>
+                                    <entry key="tooltip" value="" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="DynamicButton" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                </bean>
+                            </bean>
+                            <bean feature="Composite">
+                                <entry key="layout#layout" value="fill" type="String"/>
+                                <entry key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                <entry key="layout#spacing" value="3" type="Integer"/>
+                                <entry key="layout#marginwidth"
+                                    value="1" type="Integer"/>
+                                <entry key="layout#marginheight"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_width"
+                                    value="-1" type="Integer"/>
+                                <entry key="constraints#grid_height"
+                                    value="-1" type="Integer"/>
+                                <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                <entry key="constraints#grid_vgrab"
+                                    value="true" type="Boolean"/>
+                                <entry key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                <entry key="id" value="composite14" type="String"/>
+                                <entry key="dictionary_key" value="" type="String"/>
+                                <entry key="xy_size" value="80,20" type="String"/>
+                                <bean feature="Button">
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="id"
+                                    value="button_ZhengHe" type="String"/>
+                                    <entry key="tooltip" value="" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="DynamicButton" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                </bean>
+                            </bean>
+                            <bean feature="Composite">
+                                <entry key="layout#layout" value="grid" type="String"/>
+                                <entry key="layout#numcolumns" value="2" type="Integer"/>
+                                <entry key="layout#makeequalwidth"
+                                    value="true" type="Boolean"/>
+                                <entry key="layout#marginwidth"
+                                    value="1" type="Integer"/>
+                                <entry key="layout#marginheight"
+                                    value="1" type="Integer"/>
+                                <entry key="layout#hspacing" value="3" type="Integer"/>
+                                <entry key="layout#vspacing" value="3" type="Integer"/>
+                                <entry key="constraints#grid_width"
+                                    value="-1" type="Integer"/>
+                                <entry key="constraints#grid_height"
+                                    value="-1" type="Integer"/>
+                                <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                <entry key="constraints#grid_vgrab"
+                                    value="true" type="Boolean"/>
+                                <entry key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                <entry key="id" value="composite15" type="String"/>
+                                <entry key="dictionary_key" value="" type="String"/>
+                                <entry key="xy_size" value="80,20" type="String"/>
+                                <bean feature="Composite">
+                                    <entry key="layout#layout"
+                                    value="fill" type="String"/>
+                                    <entry key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                    <entry key="layout#spacing"
+                                    value="3" type="Integer"/>
+                                    <entry key="layout#marginwidth"
+                                    value="0" type="Integer"/>
+                                    <entry key="layout#marginheight"
+                                    value="0" type="Integer"/>
+                                    <entry key="constraints#grid_width"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_height"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry key="constraints#grid_vgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry
+                                    key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                    <entry key="id" value="composite16" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                    <bean feature="Button">
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="button_Tool" type="String"/>
+                                    <entry key="tooltip" value="" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="DynamicButton" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,20" type="String"/>
+                                    </bean>
+                                </bean>
+                                <bean feature="Composite">
+                                    <entry key="layout#layout"
+                                    value="fill" type="String"/>
+                                    <entry key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                    <entry key="layout#spacing"
+                                    value="3" type="Integer"/>
+                                    <entry key="layout#marginwidth"
+                                    value="0" type="Integer"/>
+                                    <entry key="layout#marginheight"
+                                    value="0" type="Integer"/>
+                                    <entry key="constraints#grid_width"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_height"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry key="constraints#grid_vgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry
+                                    key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                    <entry key="id" value="composite18" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                    <bean feature="Button">
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="button_Help" type="String"/>
+                                    <entry key="tooltip" value="" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="DynamicButton" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,20" type="String"/>
+                                    </bean>
+                                </bean>
+                                <bean feature="Composite">
+                                    <entry key="layout#layout"
+                                    value="fill" type="String"/>
+                                    <entry key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                    <entry key="layout#spacing"
+                                    value="3" type="Integer"/>
+                                    <entry key="layout#marginwidth"
+                                    value="0" type="Integer"/>
+                                    <entry key="layout#marginheight"
+                                    value="0" type="Integer"/>
+                                    <entry key="constraints#grid_width"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_height"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry key="constraints#grid_vgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry
+                                    key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                    <entry key="id" value="composite17" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                    <bean feature="Button">
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="button_Check" type="String"/>
+                                    <entry key="tooltip" value="" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="DynamicButton" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,20" type="String"/>
+                                    </bean>
+                                </bean>
+                                <bean feature="Composite">
+                                    <entry key="layout#layout"
+                                    value="fill" type="String"/>
+                                    <entry key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                    <entry key="layout#spacing"
+                                    value="3" type="Integer"/>
+                                    <entry key="layout#marginwidth"
+                                    value="0" type="Integer"/>
+                                    <entry key="layout#marginheight"
+                                    value="0" type="Integer"/>
+                                    <entry key="constraints#grid_width"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_height"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry key="constraints#grid_vgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry
+                                    key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                    <entry key="id" value="composite19" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                    <bean feature="Button">
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="button_Config" type="String"/>
+                                    <entry key="tooltip" value="" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="DynamicButton" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,20" type="String"/>
+                                    </bean>
+                                </bean>
+                            </bean>
+                        </bean>
+                    </bean>
+                </bean>
+                <bean feature="Composite">
+                    <entry key="dictionary_key" value="" type="String"/>
+                    <entry key="layout#layout" value="fill" type="String"/>
+                    <entry key="layout#horizontal" value="true" type="Boolean"/>
+                    <entry key="layout#spacing" value="0" type="Integer"/>
+                    <entry key="layout#marginwidth" value="0" type="Integer"/>
+                    <entry key="layout#marginheight" value="0" type="Integer"/>
+                    <entry key="id" value="composite27" type="String"/>
+                    <entry key="dictionary_key" value="" type="String"/>
+                    <entry key="xy_size" value="80,20" type="String"/>
+                    <bean feature="SashForm">
+                        <entry key="dictionary_key" value="" type="String"/>
+                        <entry key="id" value="sashform_整体" type="String"/>
+                        <entry key="xy_size" value="80,20" type="String"/>
+                        <entry key="layout_horizontal" value="true" type="Boolean"/>
+                        <entry key="themeStyle" value="ASashFormStyle" type="String"/>
+                        <bean feature="Composite">
+                            <entry key="layout#layout" value="fill" type="String"/>
+                            <entry key="layout#horizontal" value="false" type="Boolean"/>
+                            <entry key="layout#spacing" value="0" type="Integer"/>
+                            <entry key="layout#marginwidth" value="0" type="Integer"/>
+                            <entry key="layout#marginheight" value="0" type="Integer"/>
+                            <entry key="constraints#weight" value="24" type="Integer"/>
+                            <entry key="id" value="composite_left" type="String"/>
+                            <entry key="enable" value="true" type="Boolean"/>
+                            <entry key="visible" value="true" type="Boolean"/>
+                            <entry key="scrollable" value="true" type="Boolean"/>
+                            <entry key="backgroundImage" value="" type="String"/>
+                            <entry key="backgroundImageType" value="拉伸" type="String"/>
+                            <entry key="themeStyle" value="Transparent" type="String"/>
+                            <entry key="layout_numcolumns" value="1" type="Integer"/>
+                            <entry key="layout_makeequalwidth"
+                                value="false" type="Boolean"/>
+                            <entry key="layout_hspacing" value="0" type="Integer"/>
+                            <entry key="layout_vspacing" value="0" type="Integer"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="xy_size" value="80,20" type="String"/>
+                            <bean feature="Composite">
+                                <entry key="layout#layout" value="grid" type="String"/>
+                                <entry key="layout#numcolumns" value="1" type="Integer"/>
+                                <entry key="layout#makeequalwidth"
+                                    value="false" type="Boolean"/>
+                                <entry key="layout#marginwidth"
+                                    value="0" type="Integer"/>
+                                <entry key="layout#marginheight"
+                                    value="0" type="Integer"/>
+                                <entry key="layout#hspacing" value="0" type="Integer"/>
+                                <entry key="layout#vspacing" value="0" type="Integer"/>
+                                <entry key="id" value="composite25" type="String"/>
+                                <entry key="grid_width" value="150" type="Integer"/>
+                                <entry key="grid_height" value="500" type="Integer"/>
+                                <entry key="grid_hspan" value="1" type="Integer"/>
+                                <entry key="grid_vspan" value="1" type="Integer"/>
+                                <entry key="grid_halign" value="fill" type="String"/>
+                                <entry key="grid_valign" value="fill" type="String"/>
+                                <entry key="grid_hgrab" value="true" type="Boolean"/>
+                                <entry key="grid_vgrab" value="true" type="Boolean"/>
+                                <entry key="grid_hindent" value="0" type="Integer"/>
+                                <entry key="dictionary_key" value="" type="String"/>
+                                <entry key="xy_size" value="80,20" type="String"/>
+                                <bean feature="Composite">
+                                    <entry key="layout#layout"
+                                    value="xy" type="String"/>
+                                    <entry key="constraints#grid_width"
+                                    value="150" type="Integer"/>
+                                    <entry key="constraints#grid_height"
+                                    value="35" type="Integer"/>
+                                    <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry key="constraints#grid_vgrab"
+                                    value="false" type="Boolean"/>
+                                    <entry
+                                    key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                    <entry key="id" value="composite27" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                    <bean feature="Button">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="0,0" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="30,30" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="button_Back" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="DynamicButton" type="String"/>
+                                    </bean>
+                                    <bean feature="Label">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="45,0" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="76,30" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id" value="label23" type="String"/>
+                                    <entry key="text" value="业务发起 " type="String"/>
+                                    <entry key="font"
+                                    value="微软雅黑$12$0" type="String"/>
+                                    </bean>
+                                    <bean feature="Button">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="130,0" type="String"/>
+                                    <entry key="constraints#xy_size"
+                                    value="30,30" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="button_Next" type="String"/>
+                                    <entry key="themeStyle"
+                                    value="DynamicButton" type="String"/>
+                                    </bean>
+                                </bean>
+                                <bean feature="Composite">
+                                    <entry key="layout#layout"
+                                    value="fill" type="String"/>
+                                    <entry key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                    <entry key="layout#spacing"
+                                    value="0" type="Integer"/>
+                                    <entry key="layout#marginwidth"
+                                    value="0" type="Integer"/>
+                                    <entry key="layout#marginheight"
+                                    value="0" type="Integer"/>
+                                    <entry key="constraints#grid_width"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_height"
+                                    value="-1" type="Integer"/>
+                                    <entry key="constraints#grid_hspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_vspan"
+                                    value="1" type="Integer"/>
+                                    <entry key="constraints#grid_halign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_valign"
+                                    value="fill" type="String"/>
+                                    <entry key="constraints#grid_hgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry key="constraints#grid_vgrab"
+                                    value="true" type="Boolean"/>
+                                    <entry
+                                    key="constraints#grid_hindent"
+                                    value="0" type="Integer"/>
+                                    <entry key="id" value="composite28" type="String"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                    <bean feature="BookComposite">
+                                    <entry key="id"
+                                    value="bookcomposite_菜单容器" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,250" type="String"/>
+                                    <bean feature="Composite">
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="layout#layout"
+                                    value="fill" type="String"/>
+                                    <entry
+                                    key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                    <entry key="layout#spacing"
+                                    value="0" type="Integer"/>
+                                    <entry
+                                    key="layout#marginwidth"
+                                    value="0" type="Integer"/>
+                                    <entry
+                                    key="layout#marginheight"
+                                    value="0" type="Integer"/>
+                                    <entry key="id"
+                                    value="composite29" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,20" type="String"/>
+                                    <bean feature="Tree">
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="tree1" type="String"/>
+                                    <entry
+                                    key="tree_highlight_selection"
+                                    value="true" type="Boolean"/>
+                                    <entry key="themeStyle"
+                                    value="ATreeStyle" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,20" type="String"/>
+                                    </bean>
+                                    </bean>
+                                    <bean feature="Composite">
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="layout#layout"
+                                    value="xy" type="String"/>
+                                    <entry key="id"
+                                    value="composite30" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,20" type="String"/>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,10" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_网上银行" type="String"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/网上银行.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,45" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_中间业务" type="String"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/中间业务.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,80" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_短信平台" type="String"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/短信平台.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,115" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_统一报表平台" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/统一报表平台.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,150" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_反洗钱系统" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/反洗钱系统.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,185" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_信贷系统" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/信贷系统.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,220" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_差错平台" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/差错平台.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,265" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_综合业务系统" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/综合业务系统.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,290" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_理财平台" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/理财平台.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,315" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_事后监督" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/事后监督.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,340" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_财务管理" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/财务管理.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,370" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_积分管理" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/积分管理.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,395" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_现金管理" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/现金管理.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,420" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_大额存单系统" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/大额存单系统.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,445" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_电子验印" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/电子验印.png" type="String"/>
+                                    </bean>
+                                    <bean feature="Image">
+                                    <entry
+                                    key="constraints#xy_location"
+                                    value="5,470" type="String"/>
+                                    <entry
+                                    key="constraints#xy_size"
+                                    value="150,25" type="String"/>
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="image_国结系统" type="String"/>
+                                    <entry key="visible"
+                                    value="true" type="Boolean"/>
+                                    <entry key="image"
+                                    value="/${project_name}/resources/image/国结系统.png" type="String"/>
+                                    </bean>
+                                    </bean>
+                                    <bean feature="Composite">
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="layout#layout"
+                                    value="fill" type="String"/>
+                                    <entry
+                                    key="layout#horizontal"
+                                    value="true" type="Boolean"/>
+                                    <entry key="layout#spacing"
+                                    value="0" type="Integer"/>
+                                    <entry
+                                    key="layout#marginwidth"
+                                    value="0" type="Integer"/>
+                                    <entry
+                                    key="layout#marginheight"
+                                    value="0" type="Integer"/>
+                                    <entry key="id"
+                                    value="composite31" type="String"/>
+                                    <entry key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="xy_size"
+                                    value="80,20" type="String"/>
+                                    <bean feature="Tree">
+                                    <entry
+                                    key="dictionary_key"
+                                    value="" type="String"/>
+                                    <entry key="id"
+                                    value="tree_个性菜单" type="String"/>
+                                    <entry key="xy_size"
+                                    value="175,560" type="String"/>
+                                    <entry key="xy_location"
+                                    value="0,0" type="String"/>
+                                    </bean>
+                                    </bean>
+                                    </bean>
+                                </bean>
+                            </bean>
+                        </bean>
+                        <bean feature="Composite">
+                            <entry key="layout#layout" value="fill" type="String"/>
+                            <entry key="layout#horizontal" value="true" type="Boolean"/>
+                            <entry key="layout#spacing" value="0" type="Integer"/>
+                            <entry key="layout#marginwidth" value="0" type="Integer"/>
+                            <entry key="layout#marginheight" value="0" type="Integer"/>
+                            <entry key="constraints#weight" value="118" type="Integer"/>
+                            <entry key="id" value="composite_right" type="String"/>
+                            <entry key="enable" value="true" type="Boolean"/>
+                            <entry key="visible" value="true" type="Boolean"/>
+                            <entry key="scrollable" value="true" type="Boolean"/>
+                            <entry key="backgroundImage" value="" type="String"/>
+                            <entry key="backgroundImageType" value="拉伸" type="String"/>
+                            <entry key="themeStyle" value="Transparent" type="String"/>
+                            <entry key="dictionary_key" value="" type="String"/>
+                            <entry key="xy_size" value="80,20" type="String"/>
+                            <bean feature="SashForm">
+                                <entry key="dictionary_key" value="" type="String"/>
+                                <entry key="id"
+                                    value="sashform_交易界面客户信息" type="String"/>
+                                <entry key="backgroundImageType"
+                                    value="平铺" type="String"/>
+                                <entry key="layout_horizontal"
+                                    value="true" type="Boolean"/>
+                                <entry key="contractDirection"
+                                    value="right" type="String"/>
+                                <entry key="xy_size" value="80,22" type="String"/>
+                                <entry key="themeStyle"
+                                    value="ASashFormStyle" type="String"/>
+                                <bean feature="MultiTradeComposite">
+                                    <entry key="constraints#weight"
+                                    value="20" type="Integer"/>
+                                    <entry key="dictionary_key" value="" type="String"/>
+                                    <entry key="id"
+                                    value="multitradecomposite_交易区" type="String"/>
+                                    <entry key="visible" value="true" type="Boolean"/>
+                                    <entry key="backgroundImage"
+                                    value="" type="String"/>
+                                    <entry key="background"
+                                    value="255,255,255" type="String"/>
+                                    <entry key="selbackground"
+                                    value="255,255,255" type="String"/>
+                                    <entry key="foreground"
+                                    value="0,0,0" type="String"/>
+                                    <entry key="selforeground"
+                                    value="0,0,0" type="String"/>
+                                    <entry key="themeStyle" value="mtc" type="String"/>
+                                    <entry key="xy_size" value="80,20" type="String"/>
+                                </bean>
+                            </bean>
+                        </bean>
+                    </bean>
+                </bean>
+            </bean>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#grid_width" value="-1" type="Integer"/>
+        <entry key="constraints#grid_height" value="30" type="Integer"/>
+        <entry key="constraints#grid_hspan" value="1" type="Integer"/>
+        <entry key="constraints#grid_vspan" value="1" type="Integer"/>
+        <entry key="constraints#grid_halign" value="fill" type="String"/>
+        <entry key="constraints#grid_valign" value="end" type="String"/>
+        <entry key="constraints#grid_hgrab" value="false" type="Boolean"/>
+        <entry key="constraints#grid_vgrab" value="false" type="Boolean"/>
+        <entry key="constraints#grid_hindent" value="0" type="Integer"/>
+        <entry key="id" value="composite_bottom" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="themeStyle" value="Bottom" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="xy_size" value="80,20" type="String"/>
+        <bean feature="Composite">
+            <entry key="layout#layout" value="xy" type="String"/>
+            <entry key="constraints#xy_location" value="950,0" type="String"/>
+            <entry key="constraints#xy_size" value="40,40" type="String"/>
+            <entry key="id" value="composite8" type="String"/>
+            <entry key="themeStyle" value="Transparent" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <bean feature="DynamicImage">
+                <entry key="layout#layout" value="fill" type="String"/>
+                <entry key="layout#horizontal" value="true" type="Boolean"/>
+                <entry key="layout#spacing" value="0" type="Integer"/>
+                <entry key="layout#marginwidth" value="0" type="Integer"/>
+                <entry key="layout#marginheight" value="0" type="Integer"/>
+                <entry key="constraints#xy_location" value="5,5" type="String"/>
+                <entry key="constraints#xy_size" value="25,25" type="String"/>
+                <entry key="id" value="dynamicImage_即时消息" type="String"/>
+                <entry key="feature_name" value="DynamicImage" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+            </bean>
+            <bean feature="Image">
+                <entry key="constraints#xy_location" value="5,5" type="String"/>
+                <entry key="constraints#xy_size" value="25,25" type="String"/>
+                <entry key="dictionary_key" value="" type="String"/>
+                <entry key="id" value="image1" type="String"/>
+                <entry key="themeStyle" value="Transparent" type="String"/>
+            </bean>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="5,5" type="String"/>
+            <entry key="constraints#xy_size" value="732,22" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="id" value="label2" type="String"/>
+            <entry key="text"
+                value="                                                                                                        " type="String"/>
+            <entry key="vertical_alignment" value="8" type="Integer"/>
+            <entry key="foreground" value="255,255,255" type="String"/>
+            <entry key="font" value="微软雅黑$10$0" type="String"/>
+        </bean>
+        <bean feature="Clock">
+            <entry key="constraints#xy_location" value="760,5" type="String"/>
+            <entry key="constraints#xy_size" value="185,22" type="String"/>
+            <entry key="dictionary_key" value="" type="String"/>
+            <entry key="id" value="clock1" type="String"/>
+            <entry key="date_format" value="中文格式" type="String"/>
+            <entry key="tooltip" value="系统时间" type="String"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="4" type="Integer"/>
+            <entry key="foreground" value="255,255,255" type="String"/>
+            <entry key="font" value="微软雅黑$11$0" type="String"/>
+        </bean>
+    </bean>
+</content>

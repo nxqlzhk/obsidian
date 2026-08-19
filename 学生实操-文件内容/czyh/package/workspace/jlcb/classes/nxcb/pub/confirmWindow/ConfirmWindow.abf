@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="GBK"?>
+<content>
+    <entry key="layout#layout" value="xy" type="String"/>
+    <entry key="constraints#xy_location" value="0,0" type="String"/>
+    <entry key="constraints#xy_size" value="441,57" type="String"/>
+    <entry key="enable" value="true" type="Boolean"/>
+    <entry key="visible" value="true" type="Boolean"/>
+    <entry key="title" value="请确认" type="String"/>
+    <entry key="parent_trade" value="" type="String"/>
+    <entry key="help" value="确认窗口" type="String"/>
+    <entry key="dictionary_key" value="" type="String"/>
+    <entry key="methods"
+        value="button_IC卡读取_OnClick,button_磁条卡读取_OnClick,button_手工输入_OnClick" type="String"/>
+    <bean feature="Button">
+        <entry key="constraints#xy_location" value="25,5" type="String"/>
+        <entry key="constraints#xy_size" value="115,28" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="button_磁条卡读取" type="String"/>
+        <entry key="text" value="刷磁条卡/折" type="String"/>
+        <entry key="font" value="宋体$10$0" type="String"/>
+    </bean>
+    <bean feature="Button">
+        <entry key="constraints#xy_location" value="170,5" type="String"/>
+        <entry key="constraints#xy_size" value="115,28" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="button_IC卡读取" type="String"/>
+        <entry key="text" value="读IC卡芯片" type="String"/>
+        <entry key="font" value="宋体$10$0" type="String"/>
+    </bean>
+    <bean feature="Button">
+        <entry key="constraints#xy_location" value="320,5" type="String"/>
+        <entry key="constraints#xy_size" value="115,28" type="String"/>
+        <entry key="dictionary_key" value="" type="String"/>
+        <entry key="id" value="button_手工输入" type="String"/>
+        <entry key="text" value="手工输入" type="String"/>
+        <entry key="font" value="宋体$10$0" type="String"/>
+    </bean>
+</content>

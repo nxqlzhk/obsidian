@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="dictionary" path="dictionary"/>
+	<classpathentry kind="lib" path="lib/MQInterface_1.0.0.v201305200010.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.custom.dl.print_1.0.0.v201001201729.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.delta_3.3.0.v201205080951.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.exterior_3.3.0.v201207162024.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.ie.server_3.4.0.v201103211124.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.key_3.3.0.v201301311152.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.core_3.4.0.v201910040953.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.ServerSocket_1.0.0.v201609291120.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.dl.ibmmq.impl_1.0.0.v201610130941.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.dl.ibmmq_1.0.0.v201401131415.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.flcomm_1.0.0.v200811121758.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.ftable_3.3.0.v200608141854.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.iso8583_3.2.0.v201302161730.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.jlcb.issuecall.device_1.0.0.v201306181459.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.jlcb.onlinecheck_1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.parsephonedes_1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.persistence_1.0.0.v200906051054.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.ext.soptuxedo_1.0.0.v201208200917.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.ab.trade.local_3.3.0.v201305081953.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.exam.excel.iml_1.0.0.v201307311630.jar"/>
+	<classpathentry kind="lib" path="lib/cn.com.agree.exam.excel_1.0.0.v201307191646.jar"/>
+	<classpathentry kind="lib" path="lib/com.alibaba.fastjson_1.1.36.v201710130942.jar"/>
+	<classpathentry kind="lib" path="lib/com.db2jcc.jdbc.jar"/>
+	<classpathentry kind="lib" path="lib/com.union_3.4.0.v202011270928.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/db2jcc.jar"/>
+	<classpathentry kind="lib" path="lib/ezmorph-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.axis_1.0.0.v201304191059.jar"/>
+	<classpathentry kind="lib" path="lib/org.dom4j_1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/trade.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

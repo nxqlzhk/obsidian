@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "贷款.md",
+                "file": "钱包管理模块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "贷款"
+              "title": "钱包管理模块"
             }
           }
         ]
@@ -188,13 +188,33 @@
       "bases:新建数据库": false
     }
   },
-  "active": "4db5a9f484add744",
+  "active": "08fec76720bf9c84",
   "lastOpenFiles": [
+    "银行业务/“一点接入”数字人民币互联互通平台业务需求书(Jiemi).docx",
+    "学生实操-文件内容/SSLVPN客户端/SSLVPN客户端/windows-64位/SA-setup.exe",
+    "学生实操-文件内容/SSLVPN客户端/SSLVPN客户端/windows-32位/SA-setup.exe",
+    "学生实操-文件内容/SSLVPN客户端/SSLVPN客户端/windows-64位",
+    "学生实操-文件内容/SSLVPN客户端/SSLVPN客户端/windows-32位",
+    "学生实操-文件内容/SSLVPN客户端/SSLVPN客户端",
+    "学生实操-文件内容/SSLVPN客户端",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/classes/nxcb/trx/nx000/yhk/t122010/T122010.abf",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/classes/nxcb/trx/nx000/t180102/t184202/T184202.abf",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/classes/nxcb/trx/nx000/t180102/t181202/T181202.abf",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/classes/nxcb/trx/nx000/DepositMoney/t275270/T275270.abf",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/财务管理.png",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/网上银行.png",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/综合业务系统.png",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/统一报表平台.png",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/积分管理.png",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/短信平台.png",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/电子验印.png",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/理财平台.png",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/现金管理.png",
+    "学生实操-文件内容/czyh/package/workspace/jlcb/resources/image/差错平台.png",
+    "Bug模板.md",
+    "钱包管理模块.md",
     "存款.md",
-    "未命名.base",
-    "未命名 1.base",
     "贷款.md",
-    "Software_Testing_Tutorial.base",
     "README.md"
   ]
 }
